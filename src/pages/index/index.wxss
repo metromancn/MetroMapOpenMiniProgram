@@ -1,0 +1,3 @@
+.van-search__content {
+  background-color: white !important;
+}

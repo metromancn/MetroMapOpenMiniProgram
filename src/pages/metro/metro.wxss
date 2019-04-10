@@ -1,0 +1,19 @@
+.metro-image {
+  width: 100%;
+}
+
+.map-full {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow:0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+/* common */
+button::after {
+  border: none;
+}

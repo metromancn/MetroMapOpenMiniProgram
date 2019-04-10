@@ -1,0 +1,135 @@
+/**app.wxss**/
+@import 'libs/weui/weui.wxss';
+
+page {
+  --mmColorPageBack: #FAFAFA;
+  --mmColorInput: #EEEEF3;
+  --mmColorButton: #05C162;
+  --mmColorLine: #EEEEEE;
+  --mmColorTextSecond: #83929E;
+  --mmColorFareLine: #CBD5DC;
+  --mmColorFare: #94A1AB;
+
+  --mmFontNormal: 400;
+  --mmFontMedium: 500;
+  --mmFontSemiBold: 600;
+  --mmFontBold: 700;
+  
+  background-color: var(--mmColorPageBack);
+}
+
+/* commmon */
+.mmhover {
+  opacity: 0.5;
+}
+
+.mmicon {
+  width: 24px;
+  height: 24px;
+}
+
+.mmicon-large {
+  width: 48px;
+  height: 48px;
+}
+
+.mmicon-arrow {
+  width: 15px;
+  height: 9px;
+}
+
+.mmsplit {
+  font-size: 17px;
+  font-weight: var(--mmFontSemiBold);
+  line-height: 20px;
+  color: #CCCCCC;
+}
+
+.mmline {
+  width: 100%;
+  height: 1px;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: var(--mmColorLine);
+}
+
+/* font */
+.mmfont-14sb {
+  font-size: 14px;
+  font-weight: var(--mmFontSemiBold);
+}
+
+.mmfont-16sb {
+  font-size: 16px;
+  font-weight: var(--mmFontSemiBold);
+}
+
+.mmfont-17sb {
+  font-size: 17px;
+  font-weight: var(--mmFontSemiBold);
+}
+
+.mmfont-20sb {
+  font-size: 20px;
+  font-weight: var(--mmFontSemiBold);
+}
+
+.mmfont-32sb {
+  font-size: 32px;
+  font-weight: var(--mmFontSemiBold);
+}
+
+
+/* flex */
+.mmflex-start {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mmflex-center {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.mmflex-space-between {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mmflex-space-around {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* footer */
+.mmfooter-layout {
+  position:relative;
+  margin-top: 32px;
+  width: 100%;
+  height: 96px;
+}
+
+.mmfooter-button {
+  display: flex;
+  width: 80px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: column;
+  align-items: center;
+  background: var(--mmColorPageBack);
+}
