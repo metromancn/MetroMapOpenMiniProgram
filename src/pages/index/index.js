@@ -3,6 +3,7 @@ const app = getApp();
 Page({
   data: {
     cityList: app.globalData.cityList,
+    inputShowed: false,
     inputVal: ''
   },
 
@@ -27,8 +28,29 @@ Page({
     }
   },
 
-  onChange: function (e) {
-    const searchText = e.detail.toLowerCase().trim();
+  showInput: function () {
+    this.setData({
+      inputShowed: true
+    });
+  },
+
+  hideInput: function () {
+    this.setData({
+      cityList: app.globalData.cityList,
+      inputShowed: false,
+      inputVal: ''
+    });
+  },
+
+  clearInput: function () {
+    this.setData({
+      cityList: app.globalData.cityList,
+      inputVal: ''
+    });
+  },
+  
+  inputTyping: function (e) {
+    const searchText = e.detail.value.toLowerCase().trim();
     var list = new Array();
     for(const obj of app.globalData.cityList) {
       if(searchText.length == 0 || obj.name.includes(searchText) || obj.pinyin.includes(searchText) || obj.py.includes(searchText) || obj.other.includes(searchText)) {

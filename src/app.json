@@ -8,8 +8,5 @@
     "navigationBarBackgroundColor": "#FAFAFA",
     "navigationBarTitleText": "地铁图",
     "navigationBarTextStyle": "black"
-  },
-  "usingComponents": {
-    "van-search": "libs/vant/search/index"
   }
 }
