@@ -1,6 +1,12 @@
+<div align=center><img height="200" src="./image/logo.png"/></div>
+
 # 地铁图开源小程序
 
-本程序介绍了如何配置并发布一个属于自己的地铁小程序。
+本项目介绍了如何配置并发布一个属于自己的地铁小程序。
+
+## 截图
+
+<div align=center><img width="200" src="./image/index.png"/><img width="200" src="./image/metro.png"/><img width="200" src="./image/preview.png"/><img width="200" src="./image/share.png"/></div>
 
 ## 概述
 
