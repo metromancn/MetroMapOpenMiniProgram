@@ -55,7 +55,45 @@
 
 ### 配置小程序源代码
 
-编辑中...
+
+
+#### 配置页面Title
+
+打开 app.json，可以修改App名称。打开 pages\index\index.json，可以首页面的Title。
+
+```
+"navigationBarTitleText": "地铁图"
+```
+
+#### 配置城市一览
+
+demo程序已涵盖了所有已开通地铁的城市，如果你只想发布其中部分城市，可以打开 data\city.js，删除其余城市即可。
+
+> { key: "bj", lat: 39.908065, lng: 116.411502, name: "北京", english: "Beijing", pinyin: "beijing", py: "bj", other: "" }
+
+> { key: "sh", lat: 31.232844, lng: 121.47537, name: "上海", english: "Shanghai", pinyin: "shanghai", py: "sh", other: "" }
+
+#### 配置地铁Logo
+
+可以使用你自己绘制的各城市地铁Logo替换掉demo中的图标。
+
+> images\logo\logo_bj.png
+
+> images\logo\logo_sh.png
+
+#### 配置地铁图URL
+
+考虑到地铁图更新的便利化，本demo将所有线路图放到服务器上，用户选择城市后会从服务器下载图片并缓存起来。(缓存时间为10分钟)
+
+你需要将demo的URL修改成你自己的URL。打开 data\city.js，修改metroMapUrl为你自己的服务器URL即可。
+
+> metroMapUrl: 'https://metroman.cn/mp/metromap/'
+
+demo的图片存储地址如下：
+
+> https://metroman.cn/mp/metromap/routemap_bj_cn.png （北京地铁线路图）
+
+> https://metroman.cn/mp/metromap/routemap_sh_cn.png （上海地铁线路图）
 
 ### 预览并发布小程序
 
