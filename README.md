@@ -122,9 +122,31 @@ demo的图片存储地址如下：
 * URL是否设置正确。demo默认线路图名称为 routemap_{citykey}_cn.png
 * 是否已将你的域名加入到了"服务器域名"中，登陆[小程序管理平台](https://mp.weixin.qq.com/)，请到"开发"=>"开发设置"=>"服务器域名"中加入你的域名，比如：https://metroman.cn
 
+## 其他
+
+### 如何盈利
+
+目前最简单的办法就是在小程序中接入微信广告，微信规定小程序用户满1000人即可开通广告。
+
+登陆[小程序管理平台](https://mp.weixin.qq.com/)，进入"推广"=>"流量主"页面可以申请开通。
+
+大致的广告单价可以简单理解为0.02元/展示。也就是说如果每天有1000次广告展示的话，大概当日收入约为20元左右。
+
+### 如何实现换乘查询，车站信息功能
+
+目前我们在另一款小程序 "小地铁通" 中已经实现了这些功能。这些功能以何种形式开放出来尚在考虑中。
+
+<div align=center><img height="100" src="./image/metromanmp.png"/></div>
+
+### 地铁通-MetroMan
+
+目前小程序只能完成比较轻量级的功能，完整功能的App可以这里下载。
+
+[iOS下载](https://itunes.apple.com/cn/app/de-tie-tong-metroman/id466351433?mt=8)　　[Android下载](https://play.google.com/store/apps/details?id=com.xinlukou.metroman&hl=zh)  
+
 ## 祝你好运
 
-玩得开心，也请记得给我反馈。如果您发现了什么 bug (这简直是必然的)，请直接指出，如果还能附带一个 pull request 修正的话，那真的感激万分！
+玩得开心，也请记得给我反馈。如果您发现了什么 bug (作为小程序开发新手这简直是必然的)，请直接指出，如果还能附带一个 pull request 修正的话，那真的感激万分！
 
 欢迎加颗星星或者 follow 我一下以示支持，这将对我和我的项目的发展提供不可估量的帮助。再次感谢。
 
