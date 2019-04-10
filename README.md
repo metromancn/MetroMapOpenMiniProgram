@@ -1,4 +1,4 @@
-<div align=center><img height="200" src="./image/logo.png"/></div>
+<div align=center><img height="200" src="./image/logo_search.png"/></div>
 
 # 地铁图开源小程序
 
