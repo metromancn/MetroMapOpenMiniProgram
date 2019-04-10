@@ -1,4 +1,5 @@
 export default {
+  metroMapUrl: 'https://metroman.cn/mp/metromap/',
   cityList: [
 { key: "bj", lat: 39.908065, lng: 116.411502, name: "北京", english: "Beijing", pinyin: "beijing", py: "bj", other: "" },
 { key: "sh", lat: 31.232844, lng: 121.47537, name: "上海", english: "Shanghai", pinyin: "shanghai", py: "sh", other: "" },
