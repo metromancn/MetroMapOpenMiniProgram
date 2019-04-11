@@ -134,7 +134,7 @@ demo的图片存储地址如下：
 
 实际的展示效果如图：
 
-<div align=center><img width="200" src="./image/ad.png"/>
+<div align=center><img width="200" src="./image/ad.png"/></div>
 
 ### 如何实现换乘查询，车站信息功能
 
