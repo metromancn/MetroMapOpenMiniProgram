@@ -29,5 +29,18 @@ Page({
       current: this.data.metroUrl,
       urls: [this.data.metroUrl]
     });
+  },
+
+  tapMetroManMP: function (e) {
+    wx.navigateToMiniProgram({
+      appId: 'wx3c618f2bd6a9d2f7',
+      path: 'pages/index/index?purpose=index&city=' + this.data.city,
+      success(res) {
+        console.log(res);
+      },
+      fail(e) {
+        console.log(e);
+      }
+    })
   }
 })

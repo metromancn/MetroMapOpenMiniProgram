@@ -8,5 +8,8 @@
     "navigationBarBackgroundColor": "#FAFAFA",
     "navigationBarTitleText": "地铁图",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx3c618f2bd6a9d2f7"
+  ]
 }

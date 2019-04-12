@@ -6,5 +6,9 @@
       <image class='mmicon-large' src='../../images/share.png'></image>
       <text class='mmfont-17sb'>去分享</text>
     </button>
+    <button class='mmfooter-button' hover-class='mmhover' bindtap='tapMetroManMP'>
+      <image class='mmicon-large' src='../../images/metromanmp.png'></image>
+      <text class='mmfont-17sb'>查地铁</text>
+    </button>
   </view>
 </view>
