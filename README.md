@@ -156,7 +156,7 @@ demo的图片存储地址如下：
 
 E-Mail : metromancn@gmail.com
 
-QQ交流群 : 5151538
+QQ交流群 : 4361790
 
 ## 许可
 MIT License
