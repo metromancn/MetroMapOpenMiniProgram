@@ -3,13 +3,15 @@ const app = getApp();
 Page({
   data: {
     city: 'sh',
-    metroUrl: app.getMetroMapUrl('sh')
+    metroUrl: app.getMetroMapUrl('sh'),
+    planUrl: app.getMetroPlanUrl('sh')
   },
 
   onLoad: function (options) {
     this.setData({
       city: options.city,
-      metroUrl: app.getMetroMapUrl(options.city)
+      metroUrl: app.getMetroMapUrl(options.city),
+      planUrl: app.getMetroPlanUrl(options.city)
     });
   },
 
@@ -28,6 +30,13 @@ Page({
     wx.previewImage({
       current: this.data.metroUrl,
       urls: [this.data.metroUrl]
+    });
+  },
+
+  tapPlan: function (e) {
+    wx.previewImage({
+      current: this.data.planUrl,
+      urls: [this.data.planUrl]
     });
   },
 

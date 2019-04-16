@@ -3,14 +3,15 @@ import cityJS from './data/city';
 const util = require('./utils/util.js');
 
 App({
-  onLaunch: function () {
-  },
-
   globalData: {
     cityList: cityJS.cityList,
     deviceInfo: { windowWidth: 375, windowHeight: 603 }
   },
+
+  onLaunch: function () {
+  },
   
+  //
   getCityByKey: function (key) {
     var result;
     for (const obj of this.globalData.cityList) {
@@ -25,6 +26,16 @@ App({
   getMetroMapUrl: function (key) {
     var ver = util.toYMDHM(new Date()).substring(0, 11);
     return cityJS.metroMapUrl + 'routemap_' + key + '_cn.png?ver=' + ver;
+  },
+
+  getMetroPlanUrl: function (key) {
+    var result = '';
+    var city = this.getCityByKey(key);
+    if(city.plan === '1') {
+      var ver = util.toYMD(new Date());
+      result = cityJS.metroPlanUrl + 'routemap_' + key + '_cn.png?ver=' + ver;
+    }
+    return result;
   },
   
   getMaxHeight: function(val) {

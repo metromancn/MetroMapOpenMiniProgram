@@ -2,6 +2,10 @@
 <image class='map-full' src='../../images/fullscreen.png' hover-class='mmhover' bindtap='tapFull'></image>
 <view class='mmfooter-layout'>
   <view class='mmflex-space-around'>
+    <button class='mmfooter-button' hover-class='mmhover' bindtap='tapPlan' wx:if='{{planUrl}}'>
+      <image class='mmicon-large' src='../../images/metro.png'></image>
+      <text class='mmfont-17sb'>规划图</text>
+    </button>
     <button class='mmfooter-button' hover-class='mmhover' open-type='share'>
       <image class='mmicon-large' src='../../images/share.png'></image>
       <text class='mmfont-17sb'>去分享</text>

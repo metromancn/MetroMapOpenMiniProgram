@@ -1,3 +1,4 @@
+//DateTime
 const formatTime = date => {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
@@ -31,6 +32,13 @@ const toYMDHM = date => {
   return [year, month, day].map(formatNumber).join('') + [hour, minute].map(formatNumber).join('');
 }
 
+const toYMD = date => {
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return [year, month, day].map(formatNumber).join('');
+}
+
 const toMD = date => {
   const month = date.getMonth() + 1;
   const day = date.getDate();
@@ -43,10 +51,39 @@ const toHM = date => {
   return [hour, minute].map(formatNumber).join(':');
 }
 
+//Math
+function toRadian(angle) {
+  return angle * Math.PI / 180.0;
+}
+
+const checkNearby = (lat1, lng1, lat2, lng2) => {
+  var diffLat = Math.abs(lat1 - lat2);
+  var diffLng = Math.abs(lng1 - lng2);
+  var diff = diffLat + diffLng;
+  return diffLat < 0.03 && diffLng < 0.03 && diff < 0.03;
+}
+
+function getDistance( lat1,  lng1,  lat2,  lng2){
+  var radLat1 = toRadian(lat1);
+  var radLng1 = toRadian(lng1);
+  var radLat2 = toRadian(lat2);
+  var radLng2 = toRadian(lng2);
+  var a = radLat1 - radLat2;
+  var b = radLng1 - radLng2;
+  var s = 2.0 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2.0), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2.0), 2)));
+  s = s * 6378137.0;// EARTH_RADIUS;
+  s = Math.round(s);
+  return s;
+}
+
+//Export
 module.exports = {
   formatTime: formatTime,
   fromYMDHM: fromYMDHM,
   toYMDHM: toYMDHM,
+  toYMD: toYMD,
   toMD: toMD,
-  toHM: toHM
+  toHM: toHM,
+  checkNearby: checkNearby,
+  getDistance: getDistance
 }
