@@ -51,5 +51,18 @@ Page({
         console.log(e);
       }
     })
+  },
+
+  tapYunGuiTu: function (e) {
+    wx.navigateToMiniProgram({
+      appId: 'wx3297af3953a7312a',
+      path: 'pages/index/index',
+      success(res) {
+        console.log(res);
+      },
+      fail(e) {
+        console.log(e);
+      }
+    })
   }
 })

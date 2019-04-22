@@ -14,5 +14,9 @@
       <image class='mmicon-large' src='../../images/metromanmp.png'></image>
       <text class='mmfont-17sb'>查地铁</text>
     </button>
+    <button class='footer-button' hover-class='mmhover' bindtap='tapYunGuiTu'>
+      <image class='mmicon-large' src='../../images/yunguitu.png'></image>
+      <text class='mmfont-17sb'>云轨图</text>
+    </button>
   </view>
 </view>
