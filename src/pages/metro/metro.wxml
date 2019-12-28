@@ -4,19 +4,15 @@
   <view class='mmflex-space-around'>
     <button class='mmfooter-button' hover-class='mmhover' bindtap='tapPlan' wx:if='{{planUrl}}'>
       <image class='mmicon-large' src='../../images/metro.png'></image>
-      <text class='mmfont-17sb'>规划图</text>
+      <text class='mmfont-17sb'>近期规划</text>
+    </button>
+    <button class='mmfooter-button' hover-class='mmhover' bindtap='tapMore' wx:if='{{moreUrl}}'>
+      <image class='mmicon-large' src='../../images/metro.png'></image>
+      <text class='mmfont-17sb'>远期规划</text>
     </button>
     <button class='mmfooter-button' hover-class='mmhover' open-type='share'>
       <image class='mmicon-large' src='../../images/share.png'></image>
       <text class='mmfont-17sb'>去分享</text>
-    </button>
-    <button class='mmfooter-button' hover-class='mmhover' bindtap='tapMetroManMP'>
-      <image class='mmicon-large' src='../../images/metromanmp.png'></image>
-      <text class='mmfont-17sb'>查地铁</text>
-    </button>
-    <button class='footer-button' hover-class='mmhover' bindtap='tapYunGuiTu'>
-      <image class='mmicon-large' src='../../images/yunguitu.png'></image>
-      <text class='mmfont-17sb'>云轨图</text>
     </button>
   </view>
 </view>
