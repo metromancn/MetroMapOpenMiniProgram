@@ -1,0 +1,24 @@
+.layout-header {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.header-timetable {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  height: 20px;
+  line-height: 20px;
+  color: var(--mmColorTextSecond);
+}
+
+.header-line {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 1px;
+  background: var(--mmColorLine);
+}
+

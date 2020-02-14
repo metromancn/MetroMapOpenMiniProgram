@@ -1,0 +1,19 @@
+.layout-time {
+  position: relative;
+  width: 100%;
+  height: 20px;
+}
+
+.time-box {
+  position: absolute;
+  left: 92px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.time-text {
+  line-height: 20px;
+  color: var(--mmColorTextSecond);
+}
+

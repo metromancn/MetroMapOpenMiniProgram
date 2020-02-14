@@ -1,0 +1,4 @@
+/* other */
+button::after {
+  border: none;
+}

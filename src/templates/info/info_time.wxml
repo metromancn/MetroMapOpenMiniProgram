@@ -1,0 +1,12 @@
+<template name='infoTime'>
+  <view class='layout-time'>
+    <view class='time-box'>
+      <view class='mmflex-start'>
+        <text class='time-text mmfont-14sb' space='nbsp' wx:if='{{Time.Title}}'>{{Time.Title}}  </text>
+        <text class='time-text mmfont-14sb' space='nbsp'>首 {{Time.First}}</text>
+        <text class='mmsplit' space='nbsp'> | </text>
+        <text class='time-text mmfont-14sb' space='nbsp'>末 {{Time.Last}}</text>
+      </view>
+    </view>
+  </view>
+</template>

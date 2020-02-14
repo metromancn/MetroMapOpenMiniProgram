@@ -1,0 +1,23 @@
+<import src='../../templates/info/info_header.wxml' />
+<import src='../../templates/info/info_way.wxml' />
+<import src='../../templates/info/info_time.wxml' />
+<import src='../../templates/info/info_split.wxml' />
+<import src='../../templates/info/info_footer.wxml' />
+
+<view style='margin-left:{{maxMargin}}px;margin-right:{{maxMargin}}px;height:100%;'>
+  <view class='layout-map'>
+    <map
+      id='mapMini'
+      class='map-map'
+      latitude='{{latitude}}'
+      longitude='{{longitude}}'
+      scale='17'
+      bindtap='tapFull'>
+      <cover-image class='map-full' src='../../images/fullscreen.png' hover-class='mmhover' bindtap='tapFull'></cover-image>
+    </map>
+  </view>
+  <scroll-view scroll-y style='height:{{maxHeight}}px;white-space:nowrap;'>
+    <template wx:for='{{info.Info}}' wx:key='index' is='{{info.Info[index].Template}}' data='{{...info.Info[index]}}'/>
+  </scroll-view>
+</view>
+<van-toast id='van-toast' />

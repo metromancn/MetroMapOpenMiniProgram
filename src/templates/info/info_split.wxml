@@ -1,0 +1,6 @@
+<template name='infoSplit'>
+  <view class='layout-split'>
+    <view class='split-line' wx:if='{{Split.Line}}'></view>
+    <view class='split-way' wx:if='{{Split.Way}}'></view>
+  </view>
+</template>
