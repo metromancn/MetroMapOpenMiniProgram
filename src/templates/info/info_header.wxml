@@ -1,0 +1,6 @@
+<template name='infoHeader'>
+  <view class='layout-header'>
+    <text class='mmfont-17sb header-timetable'>时刻表</text>
+    <view class='header-line'></view>
+  </view>
+</template>

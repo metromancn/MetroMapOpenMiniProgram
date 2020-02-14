@@ -40,6 +40,10 @@ Page({
     });
   },
 
+  tapStation: function (e) {
+    wx.navigateTo({ url: '../station/station?purpose=1&city=' + this.data.city });
+  },
+
   tapMetroManMP: function (e) {
     wx.navigateToMiniProgram({
       appId: 'wx3c618f2bd6a9d2f7',

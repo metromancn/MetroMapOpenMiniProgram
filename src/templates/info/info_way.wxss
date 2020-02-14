@@ -1,0 +1,50 @@
+.layout-way {
+  position: relative;
+  width: 100%;
+  height: 56px;
+}
+
+.way-line {
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.way-line-text {
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 20px;
+  color: white;
+}
+
+.way-way {
+  position: absolute;
+  left: 92px;
+  top: 12px;
+  height: 20px;
+}
+
+.way-way-value {
+  line-height: 20px;
+  color: black;
+}
+
+.way-way-text {
+  line-height: 20px;
+  color: var(--mmColorTextSecond);
+}
+
+.way-time {
+  position: absolute;
+  left: 92px;
+  top: 36px;
+  height: 20px;
+}
+
+.way-text {
+  line-height: 20px;
+  color: var(--mmColorTextSecond);
+}
+

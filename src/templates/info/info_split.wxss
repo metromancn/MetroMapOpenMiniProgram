@@ -1,0 +1,25 @@
+.layout-split {
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+}
+
+.split-line {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: var(--mmColorLine);
+}
+
+.split-way {
+  position: absolute;
+  left: 92px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: var(--mmColorLine);
+}
+

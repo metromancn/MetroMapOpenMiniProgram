@@ -5,13 +5,14 @@ const util = require('./utils/util.js');
 App({
   globalData: {
     cityList: cityJS.cityList,
+    hotList: cityJS.hotList,
     deviceInfo: { windowWidth: 375, windowHeight: 603 }
   },
 
   onLaunch: function () {
   },
   
-  //
+  //City
   getCityByKey: function (key) {
     var result;
     for (const obj of this.globalData.cityList) {
@@ -22,7 +23,19 @@ App({
     }
     return result;
   },
+  
+  getHotByKey: function(key) {
+    var result;
+    for(const obj of this.globalData.hotList) {
+      if(obj.key === key) {
+        result = obj;
+        break;
+      }
+    }
+    return result;
+  },
 
+  //
   getMetroMapUrl: function (key) {
     var ver = util.toYMDHM(new Date()).substring(0, 11);
     return cityJS.metroMapUrl + 'routemap_' + key + '_cn.png?ver=' + ver;

@@ -1,0 +1,7 @@
+<map
+  id='mapFull'
+  class='map-map'
+  latitude='{{latitude}}'
+  longitude='{{longitude}}'
+  scale='17'>
+</map>

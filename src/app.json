@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/metro/metro"
+    "pages/metro/metro",
+    "pages/station/station",
+    "pages/info/info",
+    "pages/map/map"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -9,8 +12,19 @@
     "navigationBarTitleText": "地铁图",
     "navigationBarTextStyle": "black"
   },
+  "usingComponents": {
+    "van-search": "libs/vant/search/index",
+    "van-tree-select": "libs/vant/tree-select/index",
+    "van-toast": "libs/vant/toast/index"
+  },
   "navigateToMiniProgramAppIdList": [
     "wx3c618f2bd6a9d2f7",
     "wx3297af3953a7312a"
-  ]
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于推荐附近车站"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
 }

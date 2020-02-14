@@ -1,0 +1,23 @@
+<template name='infoWay'>
+  <view class='layout-way'>
+    <view class='way-line' style='background:{{Way.LineColor}}'>
+      <view class='mmflex-center'>
+        <text class='way-line-text mmfont-17sb'>{{Way.Line}}</text>
+      </view>
+    </view>
+    <view class='way-way'>
+      <view class='mmflex-start'>
+        <text class='way-way-value mmfont-17sb'>{{Way.Way}}</text>
+        <text class='way-way-text mmfont-14sb' space='nbsp'> 方向</text>
+      </view>
+    </view>
+    <view class='way-time'>
+      <view class='mmflex-start'>
+        <text class='way-text mmfont-14sb' space='nbsp' wx:if='{{Way.Title}}'>{{Way.Title}}  </text>
+        <text class='way-text mmfont-14sb' space='nbsp'>首 {{Way.First}}</text>
+        <text class='mmsplit' space='nbsp'> | </text>
+        <text class='way-text mmfont-14sb' space='nbsp'>末 {{Way.Last}}</text>
+      </view>
+    </view>
+  </view>
+</template>

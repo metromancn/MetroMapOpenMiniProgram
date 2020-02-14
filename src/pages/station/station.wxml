@@ -1,0 +1,17 @@
+<view>
+  <van-search
+    placeholder='车站/拼音/首字母'
+    background='#FAFAFA'
+    value='{{searchText}}'
+    bind:change='refreshSearch'>
+  </van-search>
+  <view class='mmline'></view>
+  <van-tree-select
+    items='{{stationData}}'
+    main-active-index='{{mainActiveIndex}}'
+    max-height='{{maxHeight}}'
+    bind:click-item='onClickItem'
+    bind:click-nav='onClickNav'>
+  </van-tree-select>
+  <van-toast id='van-toast' />
+</view>
