@@ -4,14 +4,16 @@ Page({
   data: {
     city: 'sh',
     metroUrl: app.getMetroMapUrl('sh'),
-    planUrl: app.getMetroPlanUrl('sh')
+    planUrl: app.getMetroPlanUrl('sh'),
+    moreUrl: app.getMetroMoreUrl('sh')
   },
 
   onLoad: function (options) {
     this.setData({
       city: options.city,
       metroUrl: app.getMetroMapUrl(options.city),
-      planUrl: app.getMetroPlanUrl(options.city)
+      planUrl: app.getMetroPlanUrl(options.city),
+      moreUrl: app.getMetroMoreUrl(options.city)
     });
   },
 
@@ -37,6 +39,13 @@ Page({
     wx.previewImage({
       current: this.data.planUrl,
       urls: [this.data.planUrl]
+    });
+  },
+
+  tapMore: function (e) {
+    wx.previewImage({
+      current: this.data.moreUrl,
+      urls: [this.data.moreUrl]
     });
   },
 

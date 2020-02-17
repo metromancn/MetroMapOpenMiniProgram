@@ -50,6 +50,16 @@ App({
     }
     return result;
   },
+
+  getMetroMoreUrl: function (key) {
+    var result = '';
+    var city = this.getCityByKey(key);
+    if (city.more === '1') {
+      var ver = util.toYMD(new Date());
+      result = cityJS.metroMoreUrl + 'routemap_' + key + '_cn.png?ver=' + ver;
+    }
+    return result;
+  },
   
   getMaxHeight: function(val) {
     return this.globalData.deviceInfo.windowHeight - val;
