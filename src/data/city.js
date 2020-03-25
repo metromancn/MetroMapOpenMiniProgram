@@ -2,7 +2,6 @@ export default {
   metroMapUrl: 'https://metroman.cn/metro/',
   metroPlanUrl: 'https://metroman.cn/metro/plan/',
   metroMoreUrl: 'https://metroman.cn/mp/chinhoyoo/more/',
-  showAllCity: '1',
   cityList: [
 { key: "bj", lat: 39.908065, lng: 116.411502, name: "北京", english: "Beijing", pinyin: "beijing", py: "bj", other: "", now: "1", plan: "1", more: "0" },
 { key: "sh", lat: 31.232844, lng: 121.47537, name: "上海", english: "Shanghai", pinyin: "shanghai", py: "sh", other: "", now: "1", plan: "1", more: "0" },
@@ -45,15 +44,15 @@ export default {
 { key: "cz", lat: 31.808073, lng: 119.976048, name: "常州", english: "Changzhou", pinyin: "changzhou", py: "cz", other: "", now: "1", plan: "1", more: "0" },
 { key: "xz", lat: 34.207131, lng: 117.284023, name: "徐州", english: "Xuzhou", pinyin: "xuzhou", py: "xz", other: "", now: "1", plan: "1", more: "0" },
 { key: "hh", lat: 40.821589, lng: 111.667687, name: "呼和浩特", english: "Hohhot", pinyin: "huhehaote", py: "hhht", other: "", now: "1", plan: "1", more: "0" },
-{ key: "jh", lat: 309, lng: 120, name: "金华", english: "Jinhua", pinyin: "jinhua", py: "jh", other: "", now: "0", plan: "1", more: "0" },
-{ key: "li", lat: 309, lng: 120, name: "柳州", english: "Liuzhou", pinyin: "liuzhou", py: "lz", other: "", now: "0", plan: "1", more: "0" },
-{ key: "ly", lat: 309, lng: 120, name: "洛阳", english: "Luoyang", pinyin: "luoyang", py: "ly", other: "", now: "0", plan: "1", more: "0" },
-{ key: "nt", lat: 309, lng: 120, name: "南通", english: "Nantong", pinyin: "nantong", py: "nt", other: "", now: "0", plan: "1", more: "0" },
-{ key: "sx", lat: 309, lng: 120, name: "绍兴", english: "Shaoxing", pinyin: "shaoxing", py: "sx", other: "", now: "0", plan: "1", more: "0" },
-{ key: "tc", lat: 309, lng: 120, name: "台中", english: "Taichung", pinyin: "taizhong", py: "tz", other: "tc|taichung", now: "0", plan: "1", more: "0" },
-{ key: "ty", lat: 309, lng: 120, name: "太原", english: "Taiyuan", pinyin: "taiyuan", py: "ty", other: "", now: "0", plan: "1", more: "0" },
-{ key: "tz", lat: 309, lng: 120, name: "台州", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" },
-{ key: "wu", lat: 309, lng: 120, name: "芜湖", english: "Wuhu", pinyin: "wuhu", py: "wh", other: "", now: "0", plan: "1", more: "0" }
+{ key: "jh", lat: 309, lng: 120, name: "金华(即将开通)", english: "Jinhua", pinyin: "jinhua", py: "jh", other: "", now: "0", plan: "1", more: "0" },
+{ key: "li", lat: 309, lng: 120, name: "柳州(即将开通)", english: "Liuzhou", pinyin: "liuzhou", py: "lz", other: "", now: "0", plan: "1", more: "0" },
+{ key: "ly", lat: 309, lng: 120, name: "洛阳(即将开通)", english: "Luoyang", pinyin: "luoyang", py: "ly", other: "", now: "0", plan: "1", more: "0" },
+{ key: "nt", lat: 309, lng: 120, name: "南通(即将开通)", english: "Nantong", pinyin: "nantong", py: "nt", other: "", now: "0", plan: "1", more: "0" },
+{ key: "sx", lat: 309, lng: 120, name: "绍兴(即将开通)", english: "Shaoxing", pinyin: "shaoxing", py: "sx", other: "", now: "0", plan: "1", more: "0" },
+{ key: "tc", lat: 309, lng: 120, name: "台中(即将开通)", english: "Taichung", pinyin: "taizhong", py: "tz", other: "tc|taichung", now: "0", plan: "1", more: "0" },
+{ key: "ty", lat: 309, lng: 120, name: "太原(即将开通)", english: "Taiyuan", pinyin: "taiyuan", py: "ty", other: "", now: "0", plan: "1", more: "0" },
+{ key: "tz", lat: 309, lng: 120, name: "台州(即将开通)", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" },
+{ key: "wu", lat: 309, lng: 120, name: "芜湖(即将开通)", english: "Wuhu", pinyin: "wuhu", py: "wh", other: "", now: "0", plan: "1", more: "0" }
   ],
   hotList: [
 { key: "bj", hot: ["北京南站", "北京西站", "北京站", "3号航站楼", "2号航站楼", "东直门", "西直门", "天安门东", "前门", "国贸"] },

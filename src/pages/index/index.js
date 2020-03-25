@@ -11,6 +11,8 @@ Page({
     if(options.purpose) {
       if(options.purpose === 'metro') {
         wx.navigateTo({ url: '../metro/metro?city=' + options.city });
+      } else if (options.purpose === 'plan') {
+        wx.navigateTo({ url: '../plan/plan?city=' + options.city });
       }
     }
     wx.getSystemInfo({
@@ -67,7 +69,12 @@ Page({
     try {
       var city = e.currentTarget.dataset.key;
       if (city) {
-        wx.navigateTo({ url: '../metro/metro?city=' + city });
+        var cityObj = app.getCityByKey(city);
+        if (cityObj.now == '1') {
+          wx.navigateTo({ url: '../metro/metro?city=' + city });
+        } else {
+          wx.navigateTo({ url: '../plan/plan?city=' + city });
+        }
       }
     } catch (e) {
       console.log(e);

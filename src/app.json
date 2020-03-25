@@ -4,7 +4,8 @@
     "pages/metro/metro",
     "pages/station/station",
     "pages/info/info",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/plan/plan"
   ],
   "window": {
     "backgroundTextStyle": "light",
