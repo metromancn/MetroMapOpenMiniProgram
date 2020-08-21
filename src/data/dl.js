@@ -48,7 +48,7 @@ export default {
     { id: 39, name: '东港', pinyin: 'donggang', py: 'dg', lat: '38.91992', lng: '121.69119' },
     { id: 40, name: '东海', pinyin: 'donghai', py: 'dh', lat: '38.915312', lng: '121.702691' },
     { id: 41, name: '海之韵', pinyin: 'haizhiyun', py: 'hzy', lat: '38.91214', lng: '121.711103' },
-    { id: 42, name: '地铁大连站', pinyin: 'ditiedalianzhan', py: 'dtdlz', lat: '38.923058', lng: '121.630164' },
+    { id: 42, name: '大连火车站', pinyin: 'dalianhuochezhan', py: 'dlhcz', lat: '38.923058', lng: '121.630164' },
     { id: 43, name: '香炉礁', pinyin: 'Xianglujiao', py: 'xlj', lat: '38.928567', lng: '121.603642' },
     { id: 44, name: '金家街', pinyin: 'Jinjiajie', py: 'jjj', lat: '38.967751', lng: '121.601583' },
     { id: 45, name: '泉水', pinyin: 'Quanshui', py: 'qs', lat: '39.001309', lng: '121.616775' },

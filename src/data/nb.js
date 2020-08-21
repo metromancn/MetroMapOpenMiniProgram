@@ -1,8 +1,8 @@
 export default {
   lineList: [
     { name: '1号线', color: '#008BD8', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ] },
-    { name: '2号线', color: '#EA2F2F', stations: [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 9, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49 ] },
-    { name: '3号线', color: '#FFA329', stations: [ 44, 50, 51, 52, 13, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65 ] }
+    { name: '2号线', color: '#EA2F2F', stations: [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 9, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ] },
+    { name: '3号线', color: '#FFA329', stations: [ 44, 53, 54, 55, 13, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68 ] }
   ],
   stationList: [
     { id: 0, name: '高桥西', pinyin: 'gaoqiaoxi', py: 'gqx', lat: '29.910808', lng: '121.453689' },
@@ -55,21 +55,24 @@ export default {
     { id: 47, name: '三官堂', pinyin: 'sanguantang', py: 'sgt', lat: '29.911677', lng: '121.620856' },
     { id: 48, name: '宁波大学', pinyin: 'ningbodaxue', py: 'nbdx', lat: '29.911602', lng: '121.634428' },
     { id: 49, name: '清水浦', pinyin: 'qingshuipu', py: 'qsp', lat: '29.921766', lng: '121.660929' },
-    { id: 50, name: '中兴大桥南', pinyin: 'zhongxingdaqiaonan', py: 'zxdqn', lat: '29.889922', lng: '121.588036' },
-    { id: 51, name: '明楼', pinyin: 'minglou', py: 'ml', lat: '29.879225', lng: '121.589066' },
-    { id: 52, name: '体育馆', pinyin: 'tiyuguan', py: 'tyg', lat: '29.87154', lng: '121.585139' },
-    { id: 53, name: '儿童公园', pinyin: 'ertonggongyuan', py: 'etgy', lat: '29.852329', lng: '121.57829' },
-    { id: 54, name: '仇毕', pinyin: 'qiubi', py: 'qb', lat: '29.845357', lng: '121.57529' },
-    { id: 55, name: '钱湖北路', pinyin: 'qianhubeilu', py: 'qhbl', lat: '29.835374', lng: '121.566081' },
-    { id: 56, name: '锦寓路', pinyin: 'jinyulu', py: 'jyl', lat: '29.833736', lng: '121.555674' },
-    { id: 57, name: '四明中路', pinyin: 'simingzhonglu', py: 'smzl', lat: '29.827481', lng: '121.550588' },
-    { id: 58, name: '鄞州区政府', pinyin: 'yinzhouquzhengfu', py: 'yzqzf', lat: '29.818797', lng: '121.550417' },
-    { id: 59, name: '南部商务区', pinyin: 'nanbushangwuqu', py: 'nbswq', lat: '29.806881', lng: '121.549151' },
-    { id: 60, name: '鄞州客运总站', pinyin: 'yinzhoukeyunzongzhan', py: 'yzkyzz', lat: '29.800905', lng: '121.541619' },
-    { id: 61, name: '句章路', pinyin: 'gouzhanglu', py: 'gzl', lat: '29.796836', lng: '121.531373' },
-    { id: 62, name: '高塘桥', pinyin: 'gaotangqiao', py: 'gtq', lat: '29.788035', lng: '121.528169' },
-    { id: 63, name: '姜山', pinyin: 'jiangshan', py: 'js', lat: '29.77057', lng: '121.527603' },
-    { id: 64, name: '狮山', pinyin: 'shishan', py: 'ss', lat: '29.763902', lng: '121.51902' },
-    { id: 65, name: '明辉路', pinyin: 'minghuilu', py: 'mhl', lat: '29.764349', lng: '121.505416' }
+    { id: 50, name: '五里牌', pinyin: 'wulipai', py: 'wlp', lat: '29.938832', lng: '121.678122' },
+    { id: 51, name: '枫园', pinyin: 'fengyuan', py: 'fy', lat: '29.950583', lng: '121.694837' },
+    { id: 52, name: '聪园路', pinyin: 'congyuanlu', py: 'cyl', lat: '29.949933', lng: '121.716231' },
+    { id: 53, name: '中兴大桥南', pinyin: 'zhongxingdaqiaonan', py: 'zxdqn', lat: '29.889922', lng: '121.588036' },
+    { id: 54, name: '明楼', pinyin: 'minglou', py: 'ml', lat: '29.879225', lng: '121.589066' },
+    { id: 55, name: '体育馆', pinyin: 'tiyuguan', py: 'tyg', lat: '29.87154', lng: '121.585139' },
+    { id: 56, name: '儿童公园', pinyin: 'ertonggongyuan', py: 'etgy', lat: '29.852329', lng: '121.57829' },
+    { id: 57, name: '仇毕', pinyin: 'qiubi', py: 'qb', lat: '29.845357', lng: '121.57529' },
+    { id: 58, name: '钱湖北路', pinyin: 'qianhubeilu', py: 'qhbl', lat: '29.835374', lng: '121.566081' },
+    { id: 59, name: '锦寓路', pinyin: 'jinyulu', py: 'jyl', lat: '29.833736', lng: '121.555674' },
+    { id: 60, name: '四明中路', pinyin: 'simingzhonglu', py: 'smzl', lat: '29.827481', lng: '121.550588' },
+    { id: 61, name: '鄞州区政府', pinyin: 'yinzhouquzhengfu', py: 'yzqzf', lat: '29.818797', lng: '121.550417' },
+    { id: 62, name: '南部商务区', pinyin: 'nanbushangwuqu', py: 'nbswq', lat: '29.806881', lng: '121.549151' },
+    { id: 63, name: '鄞州客运总站', pinyin: 'yinzhoukeyunzongzhan', py: 'yzkyzz', lat: '29.800905', lng: '121.541619' },
+    { id: 64, name: '句章路', pinyin: 'gouzhanglu', py: 'gzl', lat: '29.796836', lng: '121.531373' },
+    { id: 65, name: '高塘桥', pinyin: 'gaotangqiao', py: 'gtq', lat: '29.788035', lng: '121.528169' },
+    { id: 66, name: '姜山', pinyin: 'jiangshan', py: 'js', lat: '29.77057', lng: '121.527603' },
+    { id: 67, name: '狮山', pinyin: 'shishan', py: 'ss', lat: '29.763902', lng: '121.51902' },
+    { id: 68, name: '明辉路', pinyin: 'minghuilu', py: 'mhl', lat: '29.764349', lng: '121.505416' }
   ]
 };

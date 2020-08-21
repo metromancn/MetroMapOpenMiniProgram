@@ -2,7 +2,8 @@ export default {
   lineList: [
     { name: '1号线', color: '#EF4B4B', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ] },
     { name: '2号线', color: '#FFBE55', stations: [ 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 16, 38, 39, 40, 41, 42, 43, 44, 45, 46 ] },
-    { name: '9号线', color: '#1177CC', stations: [ 47, 48, 49, 50, 11, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 42, 63, 64, 65, 66 ] }
+    { name: '9号线', color: '#1177CC', stations: [ 47, 48, 49, 50, 11, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 42, 63, 64, 65, 66 ] },
+    { name: '10号线', color: '#6FBC50', stations: [ 67, 68, 69, 70, 48, 71, 72, 33, 73, 74, 75, 76, 20, 77, 78, 79, 80, 81, 65, 82, 83 ] }
   ],
   stationList: [
     { id: 0, name: '十三号街', pinyin: 'shisanhaojie', py: 'sshj', lat: '41.765454', lng: '123.230013' },
@@ -25,7 +26,7 @@ export default {
     { id: 17, name: '怀远门', pinyin: 'huaiyuanmen', py: 'hym', lat: '41.796944', lng: '123.447615' },
     { id: 18, name: '中街', pinyin: 'zhongjie', py: 'zj', lat: '41.801311', lng: '123.461627' },
     { id: 19, name: '东中街', pinyin: 'dongzhongjie', py: 'dzj', lat: '41.802863', lng: '123.470426' },
-    { id: 20, name: '滂江街', pinyin: 'pangjiangjie', py: 'pjj', lat: '41.808988', lng: '123.488419' },
+    { id: 20, name: '滂江街', pinyin: 'pangjiangjie', py: 'pjj', lat: '41.808419', lng: '123.488588' },
     { id: 21, name: '黎明广场', pinyin: 'limingguangchang', py: 'lmgc', lat: '41.808109', lng: '123.505016' },
     { id: 22, name: '蒲田路', pinyin: 'putianlu', py: 'ptl', lat: '41.956664', lng: '123.406238' },
     { id: 23, name: '蒲河路', pinyin: 'puhelu', py: 'phl', lat: '41.946881', lng: '123.408556' },
@@ -71,6 +72,23 @@ export default {
     { id: 63, name: '天成街', pinyin: 'tianchengjie', py: 'tcj', lat: '41.7436', lng: '123.467059' },
     { id: 64, name: '朗日街', pinyin: 'langrijie', py: 'lrj', lat: '41.74151', lng: '123.486467' },
     { id: 65, name: '长青南街', pinyin: 'changqingnanjie', py: 'cqnj', lat: '41.744368', lng: '123.501879' },
-    { id: 66, name: '建筑大学', pinyin: 'jianzhudaxue', py: 'jzdx', lat: '41.748655', lng: '123.520553' }
+    { id: 66, name: '建筑大学', pinyin: 'jianzhudaxue', py: 'jzdx', lat: '41.748655', lng: '123.520553' },
+    { id: 67, name: '丁香湖', pinyin: 'dingxianghu', py: 'dxh', lat: '41.864521', lng: '123.348161' },
+    { id: 68, name: '元江街', pinyin: 'yuanjiangjie', py: 'yjj', lat: '41.851144', lng: '123.356337' },
+    { id: 69, name: '向工街', pinyin: 'xianggongjie', py: 'xgj', lat: '41.836342', lng: '123.363997' },
+    { id: 70, name: '塔湾街', pinyin: 'tawanjie', py: 'twj', lat: '41.828939', lng: '123.374833' },
+    { id: 71, name: '百鸟公园', pinyin: 'bainiaogongyuan', py: 'bngy', lat: '41.830826', lng: '123.400819' },
+    { id: 72, name: '长江街', pinyin: 'changjiangjie', py: 'cjj', lat: '41.831945', lng: '123.412062' },
+    { id: 73, name: '陵东街', pinyin: 'lingdongjie', py: 'ldj', lat: '41.83316', lng: '123.443541' },
+    { id: 74, name: '北塔', pinyin: 'beita', py: 'bt', lat: '41.833384', lng: '123.456759' },
+    { id: 75, name: '合作街', pinyin: 'hezuojie', py: 'hzj', lat: '41.829323', lng: '123.474676' },
+    { id: 76, name: '东北大马路', pinyin: 'dongbeidamalu', py: 'dbdml', lat: '41.820867', lng: '123.481784' },
+    { id: 77, name: '长安路', pinyin: 'changanlu', py: 'cal', lat: '41.798193', lng: '123.485684' },
+    { id: 78, name: '万莲', pinyin: 'wanlian', py: 'wl', lat: '41.789875', lng: '123.483216' },
+    { id: 79, name: '泉园', pinyin: 'quanyuan', py: 'qy', lat: '41.77803', lng: '123.477863' },
+    { id: 80, name: '江东街', pinyin: 'jiangdongjie', py: 'jdj', lat: '41.770109', lng: '123.487079' },
+    { id: 81, name: '长青桥', pinyin: 'changqingqiao', py: 'cqq', lat: '41.761094', lng: '123.496134' },
+    { id: 82, name: '理工大学', pinyin: 'ligongdaxue', py: 'lgdx', lat: '41.73367', lng: '123.505114' },
+    { id: 83, name: '张沙布', pinyin: 'zhangshabu', py: 'zsb', lat: '41.721339', lng: '123.512774' }
   ]
 };
