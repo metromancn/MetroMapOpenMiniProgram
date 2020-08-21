@@ -34,7 +34,7 @@ Page({
     const that = this;
     wx.request({
       method: 'POST',
-      url: 'https://metroman.cn/api/metroman/infomp201905/',
+      url: 'https://metroman.cn/api/metroman/info202005/',
       data: {
         city: this.data.city,
         station: this.data.station
