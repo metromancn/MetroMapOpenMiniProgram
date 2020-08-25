@@ -1,7 +1,8 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#FF3333', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 ] },
-    { name: '3号线', color: '#3399FF', stations: [ 26, 27, 28, 29, 30, 5, 31, 32, 33, 34 ] }
+    { name: '1号线', color: '#EF4343', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 ] },
+    { name: '2号线', color: '#FFB600', stations: [ 26, 27, 28, 29, 30, 8, 31, 32, 33, 34, 35, 36, 37, 38, 39 ] },
+    { name: '3号线', color: '#3399FF', stations: [ 40, 41, 42, 43, 44, 5, 45, 46, 47, 35 ] }
   ],
   stationList: [
     { id: 0, name: '西王', pinyin: 'xiwang', py: 'xw', lat: '38.040243', lng: '114.408453' },
@@ -30,14 +31,27 @@ export default {
     { id: 23, name: '商务中心', pinyin: 'shangwuzhongxin', py: 'swzx', lat: '38.132455', lng: '114.621103' },
     { id: 24, name: '园博园', pinyin: 'yuanboyuan', py: 'yby', lat: '38.144471', lng: '114.620759' },
     { id: 25, name: '福泽', pinyin: 'fuze', py: 'fz', lat: '38.153973', lng: '114.621092' },
-    { id: 26, name: '西三庄', pinyin: 'xisanzhuang', py: 'xsz', lat: '38.079463', lng: '114.448209' },
-    { id: 27, name: '高柱', pinyin: 'gaozhu', py: 'gz', lat: '38.079193', lng: '114.463015' },
-    { id: 28, name: '柏林庄', pinyin: 'bailinzhuang', py: 'blz', lat: '38.074852', lng: '114.478486' },
-    { id: 29, name: '市庄', pinyin: 'shizhuang', py: 'sz', lat: '38.063584', lng: '114.477413' },
-    { id: 30, name: '市二中', pinyin: 'shierzhong', py: 'sez', lat: '38.052767', lng: '114.477231' },
-    { id: 31, name: '东里', pinyin: 'dongli', py: 'dl', lat: '38.036832', lng: '114.477317' },
-    { id: 32, name: '槐安桥', pinyin: 'huaianqiao', py: 'haq', lat: '38.027822', lng: '114.477266' },
-    { id: 33, name: '西三教', pinyin: 'xisanjiao', py: 'xsj', lat: '38.016783', lng: '114.477352' },
-    { id: 34, name: '石家庄站', pinyin: 'shijiazhuangzhan', py: 'sjzz', lat: '38.00997', lng: '114.487051' }
+    { id: 26, name: '柳辛庄', pinyin: 'liuxinzhuang', py: 'lxz', lat: '38.092592', lng: '114.521966' },
+    { id: 27, name: '庄窠·铁道大学', pinyin: 'zhuanghuotiedaodaxue', py: 'zhtddx', lat: '38.08354', lng: '114.516816' },
+    { id: 28, name: '义堂', pinyin: 'yitang', py: 'yt', lat: '38.072802', lng: '114.511774' },
+    { id: 29, name: '建和桥', pinyin: 'jianheqiao', py: 'jhq', lat: '38.058598', lng: '114.511699' },
+    { id: 30, name: '长安公园', pinyin: 'changangongyuan', py: 'cagy', lat: '38.050623', lng: '114.511763' },
+    { id: 31, name: '裕华路', pinyin: 'yuhualu', py: 'yhl', lat: '38.035642', lng: '114.511881' },
+    { id: 32, name: '槐中路', pinyin: 'huaizhonglu', py: 'hzl', lat: '38.028273', lng: '114.512096' },
+    { id: 33, name: '欧韵公园', pinyin: 'ouyungongyuan', py: 'oygy', lat: '38.019162', lng: '114.510722' },
+    { id: 34, name: '元村', pinyin: 'yuancun', py: 'yc', lat: '38.01546', lng: '114.500852' },
+    { id: 35, name: '石家庄站', pinyin: 'shijiazhuangzhan', py: 'sjzz', lat: '38.00997', lng: '114.487051' },
+    { id: 36, name: '塔坛', pinyin: 'tatan', py: 'tt', lat: '38.001715', lng: '114.49214' },
+    { id: 37, name: '仓丰路留村', pinyin: 'cangfengluliucun', py: 'cfllc', lat: '37.991975', lng: '114.494329' },
+    { id: 38, name: '南位', pinyin: 'nanwei', py: 'nw', lat: '37.982369', lng: '114.496603' },
+    { id: 39, name: '嘉华路', pinyin: 'jiahualu', py: 'jhl', lat: '37.974352', lng: '114.498191' },
+    { id: 40, name: '西三庄', pinyin: 'xisanzhuang', py: 'xsz', lat: '38.079463', lng: '114.448209' },
+    { id: 41, name: '高柱', pinyin: 'gaozhu', py: 'gz', lat: '38.079193', lng: '114.463015' },
+    { id: 42, name: '柏林庄', pinyin: 'bailinzhuang', py: 'blz', lat: '38.074852', lng: '114.478486' },
+    { id: 43, name: '市庄', pinyin: 'shizhuang', py: 'sz', lat: '38.063584', lng: '114.477413' },
+    { id: 44, name: '市二中', pinyin: 'shierzhong', py: 'sez', lat: '38.052767', lng: '114.477231' },
+    { id: 45, name: '东里', pinyin: 'dongli', py: 'dl', lat: '38.036832', lng: '114.477317' },
+    { id: 46, name: '槐安桥', pinyin: 'huaianqiao', py: 'haq', lat: '38.027822', lng: '114.477266' },
+    { id: 47, name: '西三教', pinyin: 'xisanjiao', py: 'xsj', lat: '38.016783', lng: '114.477352' }
   ]
 };
