@@ -2,7 +2,7 @@ export default {
   lineList: [
     { name: '1号线', color: '#2CA84F', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ] },
     { name: '2号线', color: '#FF3333', stations: [ 25, 26, 27, 28, 29, 30, 10, 11, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ] },
-    { name: '3号线', color: '#9966CC', stations: [ 41, 42, 26, 43, 44, 45, 46, 47, 48, 49, 50, 51, 16, 52, 53, 54, 55, 56, 57, 58, 59, 60 ] }
+    { name: '3号线', color: '#9966CC', stations: [ 41, 42, 26, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 16, 53, 54, 55, 56, 57, 58, 59, 60, 61 ] }
   ],
   stationList: [
     { id: 0, name: '石埠', pinyin: 'shibu', py: 'sb', lat: '22.826001', lng: '108.17721' },
@@ -54,17 +54,18 @@ export default {
     { id: 46, name: '大鸡村', pinyin: 'dajicun', py: 'djc', lat: '22.871026', lng: '108.346983' },
     { id: 47, name: '兴桂路', pinyin: 'xingguilu', py: 'xgl', lat: '22.865361', lng: '108.356526' },
     { id: 48, name: '小鸡村', pinyin: 'xiaojicun', py: 'xjc', lat: '22.856296', lng: '108.356075' },
-    { id: 49, name: '长堽路', pinyin: 'changganglu', py: 'cgl', lat: '22.835306', lng: '108.355742' },
-    { id: 50, name: '东葛路', pinyin: 'donggelu', py: 'dgl', lat: '22.830065', lng: '108.359873' },
-    { id: 51, name: '滨湖路', pinyin: 'binhulu', py: 'bhl', lat: '22.82496', lng: '108.369631' },
-    { id: 52, name: '埌西', pinyin: 'langxi', py: 'lx', lat: '22.808472', lng: '108.36866' },
-    { id: 53, name: '青竹立交', pinyin: 'qingzhulijiao', py: 'qzlj', lat: '22.799343', lng: '108.364074' },
-    { id: 54, name: '青秀山', pinyin: 'qingxiushan', py: 'qxs', lat: '22.79284', lng: '108.3691' },
-    { id: 55, name: '市博物馆', pinyin: 'shibowuguan', py: 'sbwg', lat: '22.77499', lng: '108.376117' },
-    { id: 56, name: '总部基地', pinyin: 'zongbujidi', py: 'zbjd', lat: '22.767902', lng: '108.376337' },
-    { id: 57, name: '广西规划馆', pinyin: 'guangxiguihuaguan', py: 'gxghg', lat: '22.757302', lng: '108.377742' },
-    { id: 58, name: '庆歌路', pinyin: 'qinggelu', py: 'qgl', lat: '22.750569', lng: '108.383305' },
-    { id: 59, name: '五象湖', pinyin: 'wuxianghu', py: 'wxh', lat: '22.738814', lng: '108.383901' },
-    { id: 60, name: '平良立交', pinyin: 'pinglianglijiao', py: 'pllj', lat: '22.726692', lng: '108.383804' }
+    { id: 49, name: '东沟岭', pinyin: 'donggouling', py: 'dgl', lat: '22.845045', lng: '108.355726' },
+    { id: 50, name: '长堽路', pinyin: 'changganglu', py: 'cgl', lat: '22.835306', lng: '108.355742' },
+    { id: 51, name: '东葛路', pinyin: 'donggelu', py: 'dgl', lat: '22.830065', lng: '108.359873' },
+    { id: 52, name: '滨湖路', pinyin: 'binhulu', py: 'bhl', lat: '22.82496', lng: '108.369631' },
+    { id: 53, name: '埌西', pinyin: 'langxi', py: 'lx', lat: '22.808472', lng: '108.36866' },
+    { id: 54, name: '青竹立交', pinyin: 'qingzhulijiao', py: 'qzlj', lat: '22.799343', lng: '108.364074' },
+    { id: 55, name: '青秀山', pinyin: 'qingxiushan', py: 'qxs', lat: '22.79284', lng: '108.3691' },
+    { id: 56, name: '市博物馆', pinyin: 'shibowuguan', py: 'sbwg', lat: '22.77499', lng: '108.376117' },
+    { id: 57, name: '总部基地', pinyin: 'zongbujidi', py: 'zbjd', lat: '22.767902', lng: '108.376337' },
+    { id: 58, name: '广西规划馆', pinyin: 'guangxiguihuaguan', py: 'gxghg', lat: '22.757302', lng: '108.377742' },
+    { id: 59, name: '庆歌路', pinyin: 'qinggelu', py: 'qgl', lat: '22.750569', lng: '108.383305' },
+    { id: 60, name: '五象湖', pinyin: 'wuxianghu', py: 'wxh', lat: '22.738814', lng: '108.383901' },
+    { id: 61, name: '平良立交', pinyin: 'pinglianglijiao', py: 'pllj', lat: '22.726692', lng: '108.383804' }
   ]
 };
