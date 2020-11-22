@@ -9,7 +9,7 @@ export default {
     { name: '新北投支线', color: '#FF94A9', stations: [ 43, 107 ] },
     { name: '环状线', color: '#FFCC00', stations: [ 53, 108, 109, 110, 67, 111, 112, 113, 114, 115, 116, 78, 117, 118 ] },
     { name: '桃园国际机场捷运', color: '#0066CC', stations: [ 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139 ] },
-    { name: '淡海轻轨', color: '#F99898', stations: [ 48, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149 ] }
+    { name: '淡海轻轨', color: '#F99898', stations: [ 48, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152 ] }
   ],
   stationList: [
     { id: 0, name: '动物园', pinyin: 'dongwuyuan', py: 'dwy', lat: '24.998305', lng: '121.579435' },
@@ -161,6 +161,9 @@ export default {
     { id: 146, name: '滨海义山', pinyin: 'binhaiyishan', py: 'bhys', lat: '25.189740', lng: '121.437388' },
     { id: 147, name: '滨海沙仑', pinyin: 'binhaishalun', py: 'bhsl', lat: '25.190456', lng: '121.431532' },
     { id: 148, name: '淡海新市镇', pinyin: 'danhaixinshizhen', py: 'dhxsz', lat: '25.195732', lng: '121.432463' },
-    { id: 149, name: '崁顶', pinyin: 'kanding', py: 'kd', lat: '25.200881', lng: '121.434619' }
+    { id: 149, name: '崁顶', pinyin: 'kanding', py: 'kd', lat: '25.200881', lng: '121.434619' },
+    { id: 150, name: '台北海洋大学', pinyin: 'taibeihaiyangdaxue', py: 'tbhydx', lat: '25.191126', lng: '121.426361' },
+    { id: 151, name: '沙仑', pinyin: 'shalun', py: 'sl', lat: '25.187495', lng: '121.417284' },
+    { id: 152, name: '淡水渔人码头', pinyin: 'danshuiyurenmatou', py: 'dsyrmt', lat: '25.182038', lng: '121.418604' }
   ]
 };
