@@ -250,7 +250,7 @@ export default {
     { id: 231, name: '九里堤', pinyin: 'jiulidi', py: 'jld', lat: '30.694633', lng: '104.057109' },
     { id: 232, name: '十里店', pinyin: 'shilidian', py: 'sld', lat: '30.6819', lng: '104.14678' },
     { id: 233, name: '东郊记忆', pinyin: 'dongjiaojiyi', py: 'djjy', lat: '30.668093', lng: '104.128539' },
-    { id: 234, name: '杉板桥', pinyin: 'shanbanqiao', py: 'sbq', lat: '30.664226', lng: '104.119055' },
+    { id: 234, name: '杉板桥', pinyin: 'shabanqiao', py: 'sbq', lat: '30.664226', lng: '104.119055' },
     { id: 235, name: '万年路', pinyin: 'wannianlu', py: 'wnl', lat: '30.65472', lng: '104.115122' },
     { id: 236, name: '净居寺', pinyin: 'jinjusi', py: 'jjs', lat: '30.62312', lng: '104.104848' },
     { id: 237, name: '东湖公园', pinyin: 'donghugongyuan', py: 'dhgy', lat: '30.619618', lng: '104.087957' },
