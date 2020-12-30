@@ -1,6 +1,6 @@
 export default {
   lineList: [
-    { name: '2号线', color: '#CCCCCC', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ] }
+    { name: '2号线', color: '#D33535', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ] }
   ],
   stationList: [
     { id: 0, name: '尖草坪', pinyin: 'jiancaoping', py: 'jcp', lat: '37.915718', lng: '112.562787' },
@@ -24,7 +24,6 @@ export default {
     { id: 18, name: '电子西街', pinyin: 'dianzixijie', py: 'dzxj', lat: '37.751186', lng: '112.564273' },
     { id: 19, name: '康宁街', pinyin: 'kangningjie', py: 'knj', lat: '37.742932', lng: '112.567363' },
     { id: 20, name: '通达街', pinyin: 'tongdajie', py: 'tdj', lat: '37.730205', lng: '112.568564' },
-    { id: 21, name: '化章西街', pinyin: 'huazhangxijie', py: 'hzxj', lat: '37.717976', lng: '112.568049' },
-    { id: 22, name: '西桥', pinyin: 'xiqiao', py: 'xq', lat: '37.704782', lng: '112.561252' }
+    { id: 21, name: '西桥', pinyin: 'xiqiao', py: 'xq', lat: '37.704782', lng: '112.561252' }
   ]
 };

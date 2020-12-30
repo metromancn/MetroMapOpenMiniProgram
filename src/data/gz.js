@@ -15,7 +15,7 @@ export default {
     { name: '广佛线', color: '#A0CC00', stations: [ 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 0, 234, 235, 150, 236, 237, 21, 44 ] },
     { name: 'APM线', color: '#60CDEA', stations: [ 47, 238, 239, 240, 241, 242, 243, 244, 54 ] },
     { name: '海珠电车线', color: '#ACCC66', stations: [ 85, 245, 246, 247, 248, 249, 250, 251, 252, 253, 47 ] },
-    { name: '黄埔有轨电车1号线', color: '#FF9999', stations: [ 254, 255, 256, 257, 258, 259, 260, 261, 262, 263 ] }
+    { name: '黄埔有轨电车1号线', color: '#FF9999', stations: [ 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272 ] }
   ],
   stationList: [
     { id: 0, name: '西塱', pinyin: 'xilang', py: 'xl', lat: '23.065454', lng: '113.231985' },
@@ -281,6 +281,15 @@ export default {
     { id: 260, name: '岭头', pinyin: 'lingtou', py: 'lt', lat: '23.21645', lng: '113.509577' },
     { id: 261, name: '长岭居小学', pinyin: 'changlingjuxiaoxue', py: 'cljxx', lat: '23.214735', lng: '113.502024' },
     { id: 262, name: '羌洞', pinyin: 'qiangdong', py: 'qd', lat: '23.21296', lng: '113.498768' },
-    { id: 263, name: '地铁长平', pinyin: 'ditiechangping', py: 'dtcp', lat: '23.211205', lng: '113.49041' }
+    { id: 263, name: '地铁长平', pinyin: 'ditiechangping', py: 'dtcp', lat: '23.211205', lng: '113.49041' },
+    { id: 264, name: '北师大实验学校', pinyin: 'beishidashiyanxuexiao', py: 'bsdsyxx', lat: '23.206139', lng: '113.492338' },
+    { id: 265, name: '水西(黄埔有轨)', pinyin: 'shuixi', py: 'sx', lat: '23.199577', lng: '113.484216' },
+    { id: 266, name: '峻泰路', pinyin: 'juntailu', py: 'jtl', lat: '23.19115', lng: '113.485669' },
+    { id: 267, name: '地铁水西', pinyin: 'ditieshuixi', py: 'dtsx', lat: '23.188184', lng: '113.481501' },
+    { id: 268, name: '会议中心', pinyin: 'huiyizhongxin', py: 'hyzx', lat: '23.182474', lng: '113.474275' },
+    { id: 269, name: '市民广场', pinyin: 'shiminguangchang', py: 'smgc', lat: '23.178677', lng: '113.480723' },
+    { id: 270, name: '线坑', pinyin: 'xiankeng', py: 'xk', lat: '23.176912', lng: '113.488319' },
+    { id: 271, name: '区少年宫（萝岗）', pinyin: 'qushaoniangong', py: 'qsng', lat: '23.176349', lng: '113.492407' },
+    { id: 272, name: '地铁香雪', pinyin: 'ditiexiangxue', py: 'dtxx', lat: '23.173893', lng: '113.499703' }
   ]
 };
