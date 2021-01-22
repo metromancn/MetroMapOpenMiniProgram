@@ -21,7 +21,8 @@ export default {
     { name: 'S1线', color: '#B25B1D', stations: [ 331, 332, 333, 334, 335, 336, 90 ] },
     { name: '西郊线', color: '#FF3333', stations: [ 337, 338, 339, 340, 341, 182 ] },
     { name: '首都机场线', color: '#C7A9E0', stations: [ 33, 192, 342, 343, 192, 33 ] },
-    { name: '大兴机场线', color: '#3276ED', stations: [ 205, 344, 345 ] }
+    { name: '大兴机场线', color: '#3276ED', stations: [ 205, 344, 345 ] },
+    { name: '亦庄有轨电车T1', color: '#E45055', stations: [ 346, 347, 348, 349, 293, 350, 351, 352, 353, 354, 355, 356, 357, 358 ] }
   ],
   stationList: [
     { id: 0, name: '古城', pinyin: 'gucheng', py: 'gc', lat: '39.907436', lng: '116.190735' },
@@ -369,6 +370,19 @@ export default {
     { id: 342, name: '3号航站楼', pinyin: '3haohangzhanlou', py: '3hhzl', lat: '40.052888', lng: '116.615801' },
     { id: 343, name: '2号航站楼', pinyin: '2haohangzhanlou', py: '2hhzl', lat: '40.079529', lng: '116.592749' },
     { id: 344, name: '大兴新城', pinyin: 'daxingxincheng', py: 'dxxc', lat: '39.735591', lng: '116.365503' },
-    { id: 345, name: '大兴机场', pinyin: 'daxingjichang', py: 'dxjc', lat: '39.511392', lng: '116.416663' }
+    { id: 345, name: '大兴机场', pinyin: 'daxingjichang', py: 'dxjc', lat: '39.511392', lng: '116.416663' },
+    { id: 346, name: '定海园', pinyin: 'dinghaiyuan', py: 'dhy', lat: '39.802359', lng: '116.563873' },
+    { id: 347, name: '定海园西', pinyin: 'dinghaiyuanxi', py: 'dhyx', lat: '39.796787', lng: '116.552007' },
+    { id: 348, name: '经海一路', pinyin: 'jinghaiyilu', py: 'jhyl', lat: '39.790967', lng: '116.539798' },
+    { id: 349, name: '亦创会展中心', pinyin: 'yichuanghuizhanzhongxin', py: 'ychzzx', lat: '39.786565', lng: '116.530099' },
+    { id: 350, name: '亦庄同仁', pinyin: 'yizhuangtongren', py: 'yztr', lat: '39.777512', lng: '116.518834' },
+    { id: 351, name: '鹿圈东', pinyin: 'luquandong', py: 'lqd', lat: '39.767023', lng: '116.514242' },
+    { id: 352, name: '泰河路', pinyin: 'taihelu', py: 'thl', lat: '39.760953', lng: '116.511753' },
+    { id: 353, name: '九号村', pinyin: 'jiuhaocun', py: 'jhc', lat: '39.755509', lng: '116.508791' },
+    { id: 354, name: '四海庄', pinyin: 'sihaizhuang', py: 'shz', lat: '39.747888', lng: '116.505101' },
+    { id: 355, name: '太和桥北', pinyin: 'taiheqiaobei', py: 'thqb', lat: '39.739968', lng: '116.501152' },
+    { id: 356, name: '瑞合庄', pinyin: 'ruihezhuang', py: 'rhz', lat: '39.726635', lng: '116.504071' },
+    { id: 357, name: '融兴街', pinyin: 'rongxingjie', py: 'rxj', lat: '39.718911', lng: '116.506088' },
+    { id: 358, name: '屈庄', pinyin: 'quzhuang', py: 'qz', lat: '39.710278', lng: '116.508362' }
   ]
 };

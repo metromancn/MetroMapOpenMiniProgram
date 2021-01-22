@@ -2,7 +2,7 @@ export default {
   lineList: [
     { name: '红线', color: '#F7005D', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ] },
     { name: '橘线', color: '#FF9300', stations: [ 24, 25, 26, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ] },
-    { name: '环状轻轨', color: '#86CE7A', stations: [ 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50 ] }
+    { name: '环状轻轨', color: '#86CE7A', stations: [ 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59 ] }
   ],
   stationList: [
     { id: 0, name: '小港', pinyin: 'xiaogang', py: 'xg', lat: '22.564781', lng: '120.353791' },
@@ -42,19 +42,28 @@ export default {
     { id: 34, name: '大东', pinyin: 'dadong', py: 'dd', lat: '22.625164', lng: '120.363361' },
     { id: 35, name: '凤山国中', pinyin: 'fengshanguozhong', py: 'fsgz', lat: '22.624729', lng: '120.372374' },
     { id: 36, name: '大寮', pinyin: 'daliao', py: 'dl', lat: '22.622154', lng: '120.390441' },
-    { id: 37, name: '篱仔内', pinyin: 'lizainei', py: 'lzn', lat: '22.604577', lng: '120.324532' },
-    { id: 38, name: '凯旋瑞田', pinyin: 'kaixuanruitian', py: 'kxrt', lat: '22.599174', lng: '120.31942' },
-    { id: 39, name: '前镇之星', pinyin: 'qianzhenzhixing', py: 'qzzx', lat: '22.595797', lng: '120.315772' },
-    { id: 40, name: '凯旋中华', pinyin: 'kaixuanzhonghua', py: 'kxzh', lat: '22.59338', lng: '120.309785' },
-    { id: 41, name: '梦时代', pinyin: 'mengshidai', py: 'msd', lat: '22.595341', lng: '120.304829' },
-    { id: 42, name: '经贸园区', pinyin: 'jingmaoyuanqu', py: 'jmyq', lat: '22.600809', lng: '120.302704' },
-    { id: 43, name: '软件园区', pinyin: 'ruanjianyuanqu', py: 'rjyq', lat: '22.605682', lng: '120.300902' },
-    { id: 44, name: '高雄展览馆', pinyin: 'gaoxiongzhanlanguan', py: 'gxzlg', lat: '22.610178', lng: '120.29837' },
-    { id: 45, name: '旅运中心', pinyin: 'lvyunzhongxin', py: 'lyzx', lat: '22.611723', lng: '120.292877' },
-    { id: 46, name: '光荣码头', pinyin: 'guangrongmatou', py: 'grmt', lat: '22.616755', lng: '120.292984' },
-    { id: 47, name: '真爱码头', pinyin: 'zhenaimatou', py: 'zamt', lat: '22.618597', lng: '120.288639' },
-    { id: 48, name: '驳二大义', pinyin: 'boerdayi', py: 'bedy', lat: '22.618428', lng: '120.284262' },
-    { id: 49, name: '驳二蓬莱', pinyin: 'boerpenglai', py: 'bepl', lat: '22.620439', lng: '120.279809' },
-    { id: 50, name: '哈玛星', pinyin: 'hamaxing', py: 'hmx', lat: '22.622063', lng: '120.275855' }
+    { id: 37, name: '凯旋公园', pinyin: 'kaixuangongyuan', py: 'kxgy', lat: '22.629421', lng: '120.322813' },
+    { id: 38, name: '卫生局', pinyin: 'weishengju', py: 'wsj', lat: '22.625212', lng: '120.32366' },
+    { id: 39, name: '五权国小', pinyin: 'wuquanguoxiao', py: 'wqgx', lat: '22.621201', lng: '120.325152' },
+    { id: 40, name: '凯旋武昌', pinyin: 'kaixuanwuchang', py: 'kxwc', lat: '22.616923', lng: '120.326825' },
+    { id: 41, name: '凯旋二圣', pinyin: 'kaixuanersheng', py: 'kxes', lat: '22.612535', lng: '120.327158' },
+    { id: 42, name: '轻轨机厂', pinyin: 'qingguijichang', py: 'qgjc', lat: '22.608494', lng: '120.326042' },
+    { id: 43, name: '篱仔内', pinyin: 'lizainei', py: 'lzn', lat: '22.604577', lng: '120.324532' },
+    { id: 44, name: '凯旋瑞田', pinyin: 'kaixuanruitian', py: 'kxrt', lat: '22.599174', lng: '120.31942' },
+    { id: 45, name: '前镇之星', pinyin: 'qianzhenzhixing', py: 'qzzx', lat: '22.595797', lng: '120.315772' },
+    { id: 46, name: '凯旋中华', pinyin: 'kaixuanzhonghua', py: 'kxzh', lat: '22.59338', lng: '120.309785' },
+    { id: 47, name: '梦时代', pinyin: 'mengshidai', py: 'msd', lat: '22.595341', lng: '120.304829' },
+    { id: 48, name: '经贸园区', pinyin: 'jingmaoyuanqu', py: 'jmyq', lat: '22.600809', lng: '120.302704' },
+    { id: 49, name: '软件园区', pinyin: 'ruanjianyuanqu', py: 'rjyq', lat: '22.605682', lng: '120.300902' },
+    { id: 50, name: '高雄展览馆', pinyin: 'gaoxiongzhanlanguan', py: 'gxzlg', lat: '22.610178', lng: '120.29837' },
+    { id: 51, name: '旅运中心', pinyin: 'lvyunzhongxin', py: 'lyzx', lat: '22.611723', lng: '120.292877' },
+    { id: 52, name: '光荣码头', pinyin: 'guangrongmatou', py: 'grmt', lat: '22.616755', lng: '120.292984' },
+    { id: 53, name: '真爱码头', pinyin: 'zhenaimatou', py: 'zamt', lat: '22.618597', lng: '120.288639' },
+    { id: 54, name: '驳二大义', pinyin: 'boerdayi', py: 'bedy', lat: '22.618428', lng: '120.284262' },
+    { id: 55, name: '驳二蓬莱', pinyin: 'boerpenglai', py: 'bepl', lat: '22.620439', lng: '120.279809' },
+    { id: 56, name: '哈玛星', pinyin: 'hamaxing', py: 'hmx', lat: '22.622063', lng: '120.275855' },
+    { id: 57, name: '寿山公园', pinyin: 'shoushangongyuan', py: 'ssgy', lat: '22.626559', lng: '120.278653' },
+    { id: 58, name: '文武圣殿', pinyin: 'wenwushengdian', py: 'wwsd', lat: '22.629569', lng: '120.280713' },
+    { id: 59, name: '鼓山区公所', pinyin: 'gushanqugongsuo', py: 'gsqgs', lat: '22.635996', lng: '120.282601' }
   ]
 };
