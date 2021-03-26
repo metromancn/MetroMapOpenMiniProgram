@@ -46,9 +46,9 @@ export default {
 { key: "hh", lat: 40.821589, lng: 111.667687, name: "呼和浩特", english: "Hohhot", pinyin: "huhehaote", py: "hhht", other: "", now: "1", plan: "1", more: "0" },
 { key: "tc", lat: 24.109887, lng: 120.615727, name: "台中", english: "Taichung", pinyin: "taizhong", py: "tz", other: "tc|taichung", now: "1", plan: "1", more: "0" },
 { key: "ty", lat: 37.836752, lng: 112.561266, name: "太原", english: "Taiyuan", pinyin: "taiyuan", py: "ty", other: "", now: "1", plan: "1", more: "0" },
+{ key: "ly", lat: 34.670087, lng: 112.436453, name: "洛阳", english: "Luoyang", pinyin: "luoyang", py: "ly", other: "", now: "1", plan: "1", more: "0" },
 { key: "jh", lat: 30, lng: 120, name: "金华(即将开通)", english: "Jinhua", pinyin: "jinhua", py: "jh", other: "", now: "0", plan: "1", more: "0" },
 { key: "li", lat: 30, lng: 120, name: "柳州(即将开通)", english: "Liuzhou", pinyin: "liuzhou", py: "lz", other: "", now: "0", plan: "1", more: "0" },
-{ key: "ly", lat: 30, lng: 120, name: "洛阳(即将开通)", english: "Luoyang", pinyin: "luoyang", py: "ly", other: "", now: "0", plan: "1", more: "0" },
 { key: "nt", lat: 30, lng: 120, name: "南通(即将开通)", english: "Nantong", pinyin: "nantong", py: "nt", other: "", now: "0", plan: "1", more: "0" },
 { key: "sx", lat: 30, lng: 120, name: "绍兴(即将开通)", english: "Shaoxing", pinyin: "shaoxing", py: "sx", other: "", now: "0", plan: "1", more: "0" },
 { key: "tz", lat: 30, lng: 120, name: "台州(即将开通)", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" },
@@ -97,6 +97,7 @@ export default {
 { key: "xz", hot: ["人民广场", "徐医附院", "彭城广场", "医科大学", "徐州东站"] },
 { key: "hh", hot: ["新华广场", "呼和浩特东站", "内蒙古展览馆", "内蒙古博物院", "坝堰（机场）"] },
 { key: "tc", hot: ["高铁台中站", "北屯总站", "市政府"] },
-{ key: "ty", hot: ["大北门", "大南门", "南中环"] }
+{ key: "ty", hot: ["大北门", "大南门", "南中环"] },
+{ key: "ly", hot: ["牡丹广场", "解放路", "青年宫"] }
   ]
 };
