@@ -3,7 +3,7 @@ export default {
     { name: '1号线', color: '#F464B0', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ] }
   ],
   stationList: [
-    { id: 0, name: '红山', pinyin: 'hongshan', py: 'hs', lat: '34.702306', lng: '112.330892' },
+    { id: 0, name: '红山', pinyin: 'hongshan', py: 'hs', lat: '34.701961', lng: '112.324063' },
     { id: 1, name: '谷水', pinyin: 'gushui', py: 'gs', lat: '34.682828', lng: '112.335344' },
     { id: 2, name: '秦岭路', pinyin: 'qinlinglu', py: 'qll', lat: '34.677411', lng: '112.354721' },
     { id: 3, name: '武汉路', pinyin: 'wuhanlu', py: 'whl', lat: '34.669558', lng: '112.367574' },

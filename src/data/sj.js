@@ -2,7 +2,7 @@ export default {
   lineList: [
     { name: '1号线', color: '#EF4343', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 ] },
     { name: '2号线', color: '#FFB600', stations: [ 26, 27, 28, 29, 30, 8, 31, 32, 33, 34, 35, 36, 37, 38, 39 ] },
-    { name: '3号线', color: '#3399FF', stations: [ 40, 41, 42, 43, 44, 5, 45, 46, 47, 35 ] }
+    { name: '3号线', color: '#3399FF', stations: [ 40, 41, 42, 43, 44, 5, 45, 46, 47, 35, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59 ] }
   ],
   stationList: [
     { id: 0, name: '西王', pinyin: 'xiwang', py: 'xw', lat: '38.040243', lng: '114.408453' },
@@ -52,6 +52,18 @@ export default {
     { id: 44, name: '市二中', pinyin: 'shierzhong', py: 'sez', lat: '38.052767', lng: '114.477231' },
     { id: 45, name: '东里', pinyin: 'dongli', py: 'dl', lat: '38.036832', lng: '114.477317' },
     { id: 46, name: '槐安桥', pinyin: 'huaianqiao', py: 'haq', lat: '38.027822', lng: '114.477266' },
-    { id: 47, name: '西三教', pinyin: 'xisanjiao', py: 'xsj', lat: '38.016783', lng: '114.477352' }
+    { id: 47, name: '西三教', pinyin: 'xisanjiao', py: 'xsj', lat: '38.016783', lng: '114.477352' },
+    { id: 48, name: '汇通路', pinyin: 'huitonglu', py: 'htl', lat: '38.009943', lng: '114.501266' },
+    { id: 49, name: '孙村', pinyin: 'suncun', py: 'sc', lat: '38.01009', lng: '114.512506' },
+    { id: 50, name: '塔冢', pinyin: 'tazhong', py: 'tz', lat: '38.010344', lng: '114.523959' },
+    { id: 51, name: '东王', pinyin: 'dongwang', py: 'dw', lat: '38.010653', lng: '114.537701' },
+    { id: 52, name: '南王', pinyin: 'nanwang', py: 'nw', lat: '38.010687', lng: '114.546885' },
+    { id: 53, name: '位同', pinyin: 'weitong', py: 'wt', lat: '38.01105', lng: '114.563139' },
+    { id: 54, name: '东二环南路', pinyin: 'dongerhuannanlu', py: 'dehnl', lat: '38.011439', lng: '114.577859' },
+    { id: 55, name: '西仰陵', pinyin: 'xiyangling', py: 'xyl', lat: '38.008574', lng: '114.593459' },
+    { id: 56, name: '中仰陵', pinyin: 'zhongyangling', py: 'zyl', lat: '38.008823', lng: '114.609327' },
+    { id: 57, name: '南豆', pinyin: 'nandou', py: 'nd', lat: '38.008916', lng: '114.620753' },
+    { id: 58, name: '太行南大街', pinyin: 'taihangnandajie', py: 'thndj', lat: '38.009229', lng: '114.637994' },
+    { id: 59, name: '乐乡', pinyin: 'lexiang', py: 'lx', lat: '38.008155', lng: '114.657811' }
   ]
 };
