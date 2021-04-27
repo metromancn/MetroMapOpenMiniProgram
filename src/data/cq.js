@@ -10,7 +10,8 @@ export default {
     { name: '国博线', color: '#FF88B9', stations: [ 134, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154 ] },
     { name: '10号线', color: '#7E1FC1', stations: [ 155, 127, 156, 71, 91, 157, 158, 159, 160, 161, 162, 83, 163, 164, 165, 166, 167, 147, 148 ] },
     { name: '环线', color: '#D6BD7C', stations: [ 168, 169, 170, 171, 172, 173, 174, 105, 175, 176, 90, 71, 177, 126, 178, 179, 180, 123, 181, 182, 60, 183, 184, 185, 186, 187, 188, 189, 190, 111, 191, 192, 168 ] },
-    { name: '4号线环线直通快线', color: '#D6BD7C', stations: [ 168, 170, 105, 90, 91, 92, 97 ] }
+    { name: '4号线环线直通快线', color: '#D6BD7C', stations: [ 168, 170, 105, 90, 91, 92, 97 ] },
+    { name: '璧山云巴', color: '#899CAF', stations: [ 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207 ] }
   ],
   stationList: [
     { id: 0, name: '朝天门', pinyin: 'chaotianmen', py: 'ctm', lat: '29.566312', lng: '106.587373' },
@@ -205,6 +206,21 @@ export default {
     { id: 189, name: '二郎', pinyin: 'erlang', py: 'el', lat: '29.505044', lng: '106.462138' },
     { id: 190, name: '华龙', pinyin: 'hualong', py: 'hl', lat: '29.495452', lng: '106.451765' },
     { id: 191, name: '上桥', pinyin: 'shangqiao', py: 'sq', lat: '29.517623', lng: '106.44229' },
-    { id: 192, name: '凤鸣山', pinyin: 'fengmingshan', py: 'fms', lat: '29.524354', lng: '106.448309' }
+    { id: 192, name: '凤鸣山', pinyin: 'fengmingshan', py: 'fms', lat: '29.524354', lng: '106.448309' },
+    { id: 193, name: '1号地铁站', pinyin: 'yihaoditiezhan', py: 'yhdtz', lat: '29.61155', lng: '106.232296' },
+    { id: 194, name: '科创小镇', pinyin: 'kechuangxiaozhen', py: 'kcxz', lat: '29.611541', lng: '106.220242' },
+    { id: 195, name: '景山路', pinyin: 'jingshanlu', py: 'jsl', lat: '29.60608', lng: '106.218537' },
+    { id: 196, name: '千层岩', pinyin: 'qiancengyan', py: 'qcy', lat: '29.597227', lng: '106.215382' },
+    { id: 197, name: '秀湖公园', pinyin: 'xiuhugongyuan', py: 'xhgy', lat: '29.58787', lng: '106.211316' },
+    { id: 198, name: '秀水湾', pinyin: 'xiushuiwan', py: 'xsw', lat: '29.575782', lng: '106.20998' },
+    { id: 199, name: '东岳公园', pinyin: 'dongyuegongyuan', py: 'dygy', lat: '29.567505', lng: '106.205828' },
+    { id: 200, name: '儿童公园', pinyin: 'ertonggongyuan', py: 'etgy', lat: '29.555756', lng: '106.206215' },
+    { id: 201, name: '聚金大道', pinyin: 'jujindadao', py: 'jjdd', lat: '29.54114', lng: '106.203715' },
+    { id: 202, name: '双鱼', pinyin: 'shuangyu', py: 'sy', lat: '29.532561', lng: '106.200249' },
+    { id: 203, name: '莲花湖', pinyin: 'lianhuahu', py: 'lhh', lat: '29.522815', lng: '106.200314' },
+    { id: 204, name: '刘家嘴', pinyin: 'liujiazui', py: 'ljz', lat: '29.516878', lng: '106.203017' },
+    { id: 205, name: '高观音', pinyin: 'gaoguanyin', py: 'ggy', lat: '29.510893', lng: '106.20836' },
+    { id: 206, name: '沙坡', pinyin: 'shapo', py: 'sp', lat: '29.501397', lng: '106.21557' },
+    { id: 207, name: '成渝高铁站', pinyin: 'chengyugaotiezhan', py: 'cygtz', lat: '29.504217', lng: '106.221954' }
   ]
 };
