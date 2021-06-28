@@ -7,7 +7,7 @@ export default {
     { name: '5号线', color: '#A0C93D', stations: [ 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 34, 114, 81, 115, 116, 51, 117, 118, 119 ] },
     { name: '6号线', color: '#6C5ECC', stations: [ 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 46, 111 ] },
     { name: '9号线', color: '#FF8B2C', stations: [ 22, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144 ] },
-    { name: '机场城际', color: '#2EB9FF', stations: [ 145, 146, 147, 148, 149, 150, 151, 152, 67 ] }
+    { name: '14号线', color: '#2EB9FF', stations: [ 145, 146, 147, 148, 149, 150, 151, 152, 67, 153, 154, 155, 156, 64, 157, 158, 159 ] }
   ],
   stationList: [
     { id: 0, name: '沣河森林公园', pinyin: 'fenghesenlingongyuan', py: 'fhslgy', lat: '34.320226', lng: '108.753076' },
@@ -162,6 +162,13 @@ export default {
     { id: 149, name: '长陵', pinyin: 'changling', py: 'cl', lat: '34.389924', lng: '108.829197' },
     { id: 150, name: '秦汉新城', pinyin: 'qinhanxincheng', py: 'qhxc', lat: '34.397918', lng: '108.848037' },
     { id: 151, name: '秦宫', pinyin: 'qingong', py: 'qg', lat: '34.40562', lng: '108.871501' },
-    { id: 152, name: '渭河南', pinyin: 'weihenan', py: 'whn', lat: '34.39242', lng: '108.923139' }
+    { id: 152, name: '渭河南', pinyin: 'weihenan', py: 'whn', lat: '34.39242', lng: '108.923139' },
+    { id: 153, name: '文景山公园', pinyin: 'wenjingshangongyuan', py: 'wjsgy', lat: '34.381539', lng: '108.951045' },
+    { id: 154, name: '西安工大·武德路', pinyin: 'xiangongdawudelu', py: 'xagdwdl', lat: '34.373676', lng: '108.981472' },
+    { id: 155, name: '北辰', pinyin: 'beichen', py: 'bc', lat: '34.371692', lng: '108.995677' },
+    { id: 156, name: '奥体中心', pinyin: 'aotizhongxin', py: 'atzx', lat: '34.373466', lng: '109.019817' },
+    { id: 157, name: '新寺', pinyin: 'xinsi', py: 'xs', lat: '34.369974', lng: '109.052913' },
+    { id: 158, name: '港务大道', pinyin: 'gangwudadao', py: 'gwdd', lat: '34.367884', lng: '109.067118' },
+    { id: 159, name: '贺韶', pinyin: 'heshao', py: 'hs', lat: '34.366786', lng: '109.077804' }
   ]
 };

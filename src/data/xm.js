@@ -1,7 +1,8 @@
 export default {
   lineList: [
     { name: '1号线', color: '#FF9933', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ] },
-    { name: '2号线', color: '#4DBB3D', stations: [ 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 16, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ] }
+    { name: '2号线', color: '#4DBB3D', stations: [ 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 16, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ] },
+    { name: '3号线', color: '#30BFD6', stations: [ 53, 19, 37, 54, 55, 56, 13, 57, 58, 59, 60, 52, 61, 62, 63, 64 ] }
   ],
   stationList: [
     { id: 0, name: '岩内', pinyin: 'yannei', py: 'yn', lat: '24.643122', lng: '118.070252' },
@@ -56,6 +57,18 @@ export default {
     { id: 49, name: '五通', pinyin: 'wutong', py: 'wt', lat: '24.511635', lng: '118.189562' },
     { id: 50, name: '湿地公园', pinyin: 'shidigongyuan', py: 'sdgy', lat: '24.516487', lng: '118.18357' },
     { id: 51, name: '钟宅', pinyin: 'zhongzhai', py: 'zz', lat: '24.523944', lng: '118.173029' },
-    { id: 52, name: '五缘湾', pinyin: 'wuyuanwan', py: 'wyw', lat: '24.532509', lng: '118.167026' }
+    { id: 52, name: '五缘湾', pinyin: 'wuyuanwan', py: 'wyw', lat: '24.532509', lng: '118.167026' },
+    { id: 53, name: '厦门火车站', pinyin: 'xiamenhuochezhan', py: 'xmhcz', lat: '24.469173', lng: '118.114746' },
+    { id: 54, name: '人才中心', pinyin: 'rencaizhongxin', py: 'rczx', lat: '24.489668', lng: '118.102965' },
+    { id: 55, name: '湖里公园', pinyin: 'huligongyuan', py: 'hlgy', lat: '24.506471', lng: '118.105519' },
+    { id: 56, name: '华荣路', pinyin: 'huaronglu', py: 'hrl', lat: '24.511537', lng: '118.108566' },
+    { id: 57, name: '小东山', pinyin: 'xiaodongshan', py: 'xds', lat: '24.513987', lng: '118.125281' },
+    { id: 58, name: '安兜', pinyin: 'andou', py: 'ad', lat: '24.517921', lng: '118.138328' },
+    { id: 59, name: '坂尚', pinyin: 'banshang', py: 'bs', lat: '24.519168', lng: '118.146862' },
+    { id: 60, name: '湖里创新园', pinyin: 'hulichuangxinyuan', py: 'hlcxy', lat: '24.52296', lng: '118.156164' },
+    { id: 61, name: '林前', pinyin: 'linqian', py: 'lq', lat: '24.575966', lng: '118.231754' },
+    { id: 62, name: '鼓锣', pinyin: 'guluo', py: 'gl', lat: '24.578562', lng: '118.245058' },
+    { id: 63, name: '后村', pinyin: 'houcun', py: 'hc', lat: '24.580171', lng: '118.271429' },
+    { id: 64, name: '蔡厝', pinyin: 'caicuo', py: 'cc', lat: '24.567658', lng: '118.287195' }
   ]
 };

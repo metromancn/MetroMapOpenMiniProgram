@@ -10,8 +10,8 @@ export default {
   ],
   stationList: [
     { id: 0, name: '东沽路', pinyin: 'donggulu', py: 'dgl', lat: '39.012317', lng: '117.40875' },
-    { id: 1, name: '国展路', pinyin: 'guozhanlu', py: 'gzl', lat: '39.021853', lng: '117.390855' },
-    { id: 2, name: '北洋村', pinyin: 'beiyangcun', py: 'byc', lat: '39.028154', lng: '117.385018' },
+    { id: 1, name: '国瑞路', pinyin: 'guoruilu', py: 'grl', lat: '39.021853', lng: '117.390855' },
+    { id: 2, name: '国家会展中心', pinyin: 'guojiahuizhanzhongxin', py: 'gjhzzx', lat: '39.028154', lng: '117.385018' },
     { id: 3, name: '高庄子', pinyin: 'gaozhuangzi', py: 'gzz', lat: '39.042988', lng: '117.361243' },
     { id: 4, name: '李楼', pinyin: 'lilou', py: 'll', lat: '39.054468', lng: '117.317126' },
     { id: 5, name: '双林', pinyin: 'shuanglin', py: 'sl', lat: '39.057184', lng: '117.292128' },
