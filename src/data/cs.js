@@ -32,7 +32,7 @@ export default {
     { id: 21, name: '麓云路', pinyin: 'luyunlu', py: 'lyl', lat: '28.190853', lng: '112.892029' },
     { id: 22, name: '文化艺术中心', pinyin: 'wenhuayishuzhongxin', py: 'whyszx', lat: '28.196702', lng: '112.900455' },
     { id: 23, name: '梅溪湖东', pinyin: 'meixihudong', py: 'mxhd', lat: '28.201676', lng: '112.908169' },
-    { id: 24, name: '望城坡', pinyin: 'wangchengpo', py: 'wcp', lat: '28.207481', lng: '112.9137' },
+    { id: 24, name: '望城坡(汽车西站)', pinyin: 'wangchengpoqichexizhan', py: 'wcpqcxz', lat: '28.207481', lng: '112.9137' },
     { id: 25, name: '金星路', pinyin: 'jinxinglu', py: 'jxl', lat: '28.206063', lng: '112.928575' },
     { id: 26, name: '西湖公园', pinyin: 'xihugongyuan', py: 'xhgy', lat: '28.202635', lng: '112.939889' },
     { id: 27, name: '溁湾镇', pinyin: 'yingwanzhen', py: 'ywz', lat: '28.197586', lng: '112.951445' },
