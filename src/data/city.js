@@ -47,11 +47,11 @@ export default {
 { key: "tc", lat: 24.109887, lng: 120.615727, name: "台中", english: "Taichung", pinyin: "taizhong", py: "tz", other: "tc|taichung", now: "1", plan: "1", more: "0" },
 { key: "ty", lat: 37.836752, lng: 112.561266, name: "太原", english: "Taiyuan", pinyin: "taiyuan", py: "ty", other: "", now: "1", plan: "1", more: "0" },
 { key: "ly", lat: 34.670087, lng: 112.436453, name: "洛阳", english: "Luoyang", pinyin: "luoyang", py: "ly", other: "", now: "1", plan: "1", more: "0" },
+{ key: "wu", lat: 31.331765, lng: 118.374903, name: "芜湖", english: "Wuhu", pinyin: "wuhu", py: "wh", other: "", now: "1", plan: "1", more: "0" },
 { key: "jh", lat: 30, lng: 120, name: "金华(即将开通)", english: "Jinhua", pinyin: "jinhua", py: "jh", other: "", now: "0", plan: "1", more: "0" },
 { key: "li", lat: 30, lng: 120, name: "柳州(即将开通)", english: "Liuzhou", pinyin: "liuzhou", py: "lz", other: "", now: "0", plan: "1", more: "0" },
 { key: "nt", lat: 30, lng: 120, name: "南通(即将开通)", english: "Nantong", pinyin: "nantong", py: "nt", other: "", now: "0", plan: "1", more: "0" },
-{ key: "tz", lat: 30, lng: 120, name: "台州(即将开通)", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" },
-{ key: "wu", lat: 30, lng: 120, name: "芜湖(即将开通)", english: "Wuhu", pinyin: "wuhu", py: "wh", other: "", now: "0", plan: "1", more: "0" }
+{ key: "tz", lat: 30, lng: 120, name: "台州(即将开通)", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" }
   ],
   hotList: [
 { key: "bj", hot: ["北京南站", "北京西站", "北京站", "3号航站楼", "2号航站楼", "东直门", "西直门", "天安门东", "前门", "国贸"] },
@@ -97,6 +97,7 @@ export default {
 { key: "hh", hot: ["新华广场", "呼和浩特东站", "内蒙古展览馆", "内蒙古博物院", "坝堰（机场）"] },
 { key: "tc", hot: ["高铁台中站", "北屯总站", "市政府"] },
 { key: "ty", hot: ["大北门", "大南门", "南中环"] },
-{ key: "ly", hot: ["牡丹广场", "解放路", "青年宫"] }
+{ key: "ly", hot: ["牡丹广场", "解放路", "青年宫"] },
+{ key: "wu", hot: ["鸠兹广场", "奧体中心", "博览中心"] }
   ]
 };
