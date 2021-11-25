@@ -1,7 +1,8 @@
 export default {
   lineList: [
     { name: '1号线', color: '#E73B41', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ] },
-    { name: '2号线', color: '#3E8A5B', stations: [ 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 7, 34, 35, 36, 37, 38, 39, 40 ] }
+    { name: '2号线', color: '#3E8A5B', stations: [ 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 7, 34, 35, 36, 37, 38, 39, 40 ] },
+    { name: '3号线', color: '#FDAF2D', stations: [ 41, 42, 43, 44, 45, 46, 47, 48, 15, 49, 50, 51, 52, 53, 54, 55, 56, 37, 57, 58, 59, 60, 61, 3 ] }
   ],
   stationList: [
     { id: 0, name: '哈尔滨东站', pinyin: 'haerbindongzhan', py: 'hebdz', lat: '45.789341', lng: '126.709115' },
@@ -44,6 +45,27 @@ export default {
     { id: 37, name: '珠江路', pinyin: 'zhujianglu', py: 'zjl', lat: '45.736613', lng: '126.692759' },
     { id: 38, name: '南直路', pinyin: 'nanzhilu', py: 'nzl', lat: '45.734981', lng: '126.705912' },
     { id: 39, name: '东北农业大学', pinyin: 'dongbeinongyedaxue', py: 'dbnydx', lat: '45.729768', lng: '126.724001' },
-    { id: 40, name: '气象台', pinyin: 'qixiangtai', py: 'qxt', lat: '45.727671', lng: '126.738764' }
+    { id: 40, name: '气象台', pinyin: 'qixiangtai', py: 'qxt', lat: '45.727671', lng: '126.738764' },
+    { id: 41, name: '体育公园', pinyin: 'tiyugongyuan', py: 'tygy', lat: '45.738588', lng: '126.549923' },
+    { id: 42, name: '群力第五大道', pinyin: 'qunlidiwudadao', py: 'qldwdd', lat: '45.730695', lng: '126.54546' },
+    { id: 43, name: '医大一院群力院区', pinyin: 'yidayiyuanqunliyuanqu', py: 'ydyyqlyq', lat: '45.724681', lng: '126.551457' },
+    { id: 44, name: '工农大街', pinyin: 'gongnongdajie', py: 'gndj', lat: '45.718831', lng: '126.558635' },
+    { id: 45, name: '城乡路', pinyin: 'chengxianglu', py: 'cxl', lat: '45.714943', lng: '126.563814' },
+    { id: 46, name: '哈尔滨西站', pinyin: 'haerbinxizhan', py: 'hebxz', lat: '45.705803', lng: '126.577901' },
+    { id: 47, name: '凯盛源广场', pinyin: 'kaishengyuanguangchang', py: 'ksygc', lat: '45.701297', lng: '126.58525' },
+    { id: 48, name: '哈西大街', pinyin: 'haxidajie', py: 'hxdj', lat: '45.695493', lng: '126.59643' },
+    { id: 49, name: '征仪路', pinyin: 'zhengyilu', py: 'zyl', lat: '45.699536', lng: '126.634327' },
+    { id: 50, name: '肿瘤医院', pinyin: 'zhongliuyiyuan', py: 'zlyy', lat: '45.700458', lng: '126.643243' },
+    { id: 51, name: '旭升街', pinyin: 'xushengjie', py: 'xsj', lat: '45.702421', lng: '126.664067' },
+    { id: 52, name: '劳动公园', pinyin: 'laodonggongyuan', py: 'ldgy', lat: '45.700923', lng: '126.675139' },
+    { id: 53, name: '进乡街', pinyin: 'jinxiangjie', py: 'jxj', lat: '45.704774', lng: '126.686276' },
+    { id: 54, name: '汽轮机厂', pinyin: 'qilunjichang', py: 'qljc', lat: '45.714543', lng: '126.689559' },
+    { id: 55, name: '油坊街', pinyin: 'youfangjie', py: 'yfj', lat: '45.723307', lng: '126.690482' },
+    { id: 56, name: '公滨路', pinyin: 'gongbinlu', py: 'gbl', lat: '45.730812', lng: '126.691125' },
+    { id: 57, name: '湘江路', pinyin: 'xiangjianglu', py: 'xjl', lat: '45.742172', lng: '126.694457' },
+    { id: 58, name: '会展中心', pinyin: 'huizhanzhongxin', py: 'hzzx', lat: '45.750557', lng: '126.696667' },
+    { id: 59, name: '海河东路', pinyin: 'haihedonglu', py: 'hhdl', lat: '45.75945', lng: '126.694779' },
+    { id: 60, name: '市第二医院', pinyin: 'shidieryiyuan', py: 'sdeyy', lat: '45.7696', lng: '126.692152' },
+    { id: 61, name: '大有坊街', pinyin: 'dayoufangjie', py: 'dyfj', lat: '45.775198', lng: '126.690736' }
   ]
 };
