@@ -1,8 +1,9 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#FF1F1F', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ] },
-    { name: '2号线', color: '#FFCC00', stations: [ 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 7, 40, 41, 42, 43, 44, 12, 45, 46, 47, 48, 49 ] },
-    { name: '3号线', color: '#2C6FDB', stations: [ 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 11, 63, 43, 64, 65, 66, 67, 68, 69 ] }
+    { name: '1号线', color: '#FB1929', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ] },
+    { name: '2号线', color: '#FDCB33', stations: [ 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 7, 40, 41, 42, 43, 44, 12, 45, 46, 47, 48, 49 ] },
+    { name: '3号线', color: '#3270D7', stations: [ 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 11, 63, 43, 64, 65, 66, 67, 68, 69 ] },
+    { name: '4号线', color: '#27A04A', stations: [ 70, 71, 72, 73, 74, 31, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 61, 85, 46, 13, 86, 64, 87, 88, 89, 90, 91, 92, 93 ] }
   ],
   stationList: [
     { id: 0, name: '双港', pinyin: 'shuanggang', py: 'sg', lat: '28.743096', lng: '115.861132' },
@@ -74,6 +75,30 @@ export default {
     { id: 66, name: '国威路', pinyin: 'guoweilu', py: 'gwl', lat: '28.687174', lng: '115.941014' },
     { id: 67, name: '火炬广场', pinyin: 'huojuguangchang', py: 'hjgc', lat: '28.688078', lng: '115.94846' },
     { id: 68, name: '梁万', pinyin: 'liangwan', py: 'lw', lat: '28.690261', lng: '115.960519' },
-    { id: 69, name: '京东大道', pinyin: 'jingdongdadao', py: 'jddd', lat: '28.692577', lng: '115.972879' }
+    { id: 69, name: '京东大道', pinyin: 'jingdongdadao', py: 'jddd', lat: '28.692577', lng: '115.972879' },
+    { id: 70, name: '白马山', pinyin: 'baimashan', py: 'bms', lat: '28.631873', lng: '115.721522' },
+    { id: 71, name: '裕丰街', pinyin: 'yufengjie', py: 'yfj', lat: '28.622907', lng: '115.72886' },
+    { id: 72, name: '璜溪', pinyin: 'huangxi', py: 'hx', lat: '28.621175', lng: '115.741906' },
+    { id: 73, name: '中堡', pinyin: 'zhongbao', py: 'zb', lat: '28.623246', lng: '115.754867' },
+    { id: 74, name: '礼庄山', pinyin: 'lizhuangshan', py: 'lzs', lat: '28.625563', lng: '115.771561' },
+    { id: 75, name: '怀玉山大道', pinyin: 'huaiyushandadao', py: 'hysdd', lat: '28.615203', lng: '115.799413' },
+    { id: 76, name: '安丰', pinyin: 'anfeng', py: 'af', lat: '28.608789', lng: '115.813827' },
+    { id: 77, name: '东新', pinyin: 'dongxin', py: 'dx', lat: '28.59791', lng: '115.839169' },
+    { id: 78, name: '新洪城大市场', pinyin: 'xinhongchengdashichang', py: 'xhcdsc', lat: '28.603618', lng: '115.848867' },
+    { id: 79, name: '丁家洲', pinyin: 'dingjiazhou', py: 'djz', lat: '28.618453', lng: '115.854475' },
+    { id: 80, name: '观洲', pinyin: 'guanzhou', py: 'gz', lat: '28.630611', lng: '115.861717' },
+    { id: 81, name: '云天路', pinyin: 'yuntianlu', py: 'ytl', lat: '28.639689', lng: '115.868173' },
+    { id: 82, name: '灌婴路', pinyin: 'guanyinglu', py: 'gyl', lat: '28.647165', lng: '115.8724' },
+    { id: 83, name: '南昌大桥东', pinyin: 'nanchangdaqiaodong', py: 'ncdqd', lat: '28.655413', lng: '115.877443' },
+    { id: 84, name: '桃苑', pinyin: 'taoyuan', py: 'ty', lat: '28.659612', lng: '115.890682' },
+    { id: 85, name: '坛子口', pinyin: 'tanzikou', py: 'tzk', lat: '28.657221', lng: '115.91008' },
+    { id: 86, name: '人民公园', pinyin: 'renmingongyuan', py: 'rmgy', lat: '28.684981', lng: '115.912312' },
+    { id: 87, name: '起凤路', pinyin: 'qifenglu', py: 'qfl', lat: '28.702439', lng: '115.916979' },
+    { id: 88, name: '七里', pinyin: 'qili', py: 'ql', lat: '28.709854', lng: '115.927815' },
+    { id: 89, name: '民园路西', pinyin: 'minyuanluxi', py: 'mylx', lat: '28.718181', lng: '115.946279' },
+    { id: 90, name: '火炬', pinyin: 'huoju', py: 'hj', lat: '28.716883', lng: '115.960624' },
+    { id: 91, name: '北沥', pinyin: 'beili', py: 'bl', lat: '28.715471', lng: '115.972962' },
+    { id: 92, name: '科技城', pinyin: 'kejicheng', py: 'kjc', lat: '28.715434', lng: '115.981974' },
+    { id: 93, name: '鱼尾洲', pinyin: 'yuweizhou', py: 'ywz', lat: '28.709506', lng: '116.001887' }
   ]
 };

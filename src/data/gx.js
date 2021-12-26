@@ -2,7 +2,7 @@ export default {
   lineList: [
     { name: '红线', color: '#F7005D', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ] },
     { name: '橘线', color: '#FF9300', stations: [ 24, 25, 26, 8, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ] },
-    { name: '环状轻轨', color: '#86CE7A', stations: [ 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59 ] }
+    { name: '环状轻轨', color: '#86CE7A', stations: [ 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62 ] }
   ],
   stationList: [
     { id: 0, name: '小港', pinyin: 'xiaogang', py: 'xg', lat: '22.564781', lng: '120.353791' },
@@ -64,6 +64,9 @@ export default {
     { id: 56, name: '哈玛星', pinyin: 'hamaxing', py: 'hmx', lat: '22.622063', lng: '120.275855' },
     { id: 57, name: '寿山公园', pinyin: 'shoushangongyuan', py: 'ssgy', lat: '22.626559', lng: '120.278653' },
     { id: 58, name: '文武圣殿', pinyin: 'wenwushengdian', py: 'wwsd', lat: '22.629569', lng: '120.280713' },
-    { id: 59, name: '鼓山区公所', pinyin: 'gushanqugongsuo', py: 'gsqgs', lat: '22.635996', lng: '120.282601' }
+    { id: 59, name: '鼓山区公所', pinyin: 'gushanqugongsuo', py: 'gsqgs', lat: '22.635996', lng: '120.282601' },
+    { id: 60, name: '鼓山', pinyin: 'gushan', py: 'gs', lat: '22.641838', lng: '120.280659' },
+    { id: 61, name: '马卡道', pinyin: 'makadao', py: 'mkd', lat: '22.647225', lng: '120.2817' },
+    { id: 62, name: '台铁美术馆', pinyin: 'taitiemeishuguan', py: 'ttmsg', lat: '22.652116', lng: '120.281518' }
   ]
 };

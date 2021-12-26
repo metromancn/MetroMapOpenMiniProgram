@@ -1,6 +1,7 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#F464B0', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ] }
+    { name: '1号线', color: '#F163AE', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ] },
+    { name: '2号线', color: '#72BA3C', stations: [ 19, 20, 21, 22, 23, 9, 24, 25, 26, 27, 28, 29, 30, 31, 32 ] }
   ],
   stationList: [
     { id: 0, name: '红山', pinyin: 'hongshan', py: 'hs', lat: '34.701961', lng: '112.324063' },
@@ -21,6 +22,20 @@ export default {
     { id: 15, name: '启明南路', pinyin: 'qimingnanlu', py: 'qmnl', lat: '34.687924', lng: '112.504464' },
     { id: 16, name: '塔湾', pinyin: 'tawan', py: 'tw', lat: '34.690076', lng: '112.517747' },
     { id: 17, name: '史家湾', pinyin: 'shijiawan', py: 'sjw', lat: '34.692776', lng: '112.534784' },
-    { id: 18, name: '杨湾', pinyin: 'yangwan', py: 'yw', lat: '34.69641', lng: '112.554504' }
+    { id: 18, name: '杨湾', pinyin: 'yangwan', py: 'yw', lat: '34.69641', lng: '112.554504' },
+    { id: 19, name: '二乔路', pinyin: 'erqiaolu', py: 'eql', lat: '34.707187', lng: '112.41069' },
+    { id: 20, name: '邙岭', pinyin: 'mangling', py: 'ml', lat: '34.707011', lng: '112.421848' },
+    { id: 21, name: '国花路', pinyin: 'guohualu', py: 'ghl', lat: '34.695156', lng: '112.428929' },
+    { id: 22, name: '洛阳火车站', pinyin: 'luoyanghuochezhan', py: 'lyhcz', lat: '34.684764', lng: '112.434101' },
+    { id: 23, name: '纱厂路', pinyin: 'shachanglu', py: 'scl', lat: '34.678094', lng: '112.434079' },
+    { id: 24, name: '牡丹桥', pinyin: 'mudanqiao', py: 'mdq', lat: '34.662158', lng: '112.440688' },
+    { id: 25, name: '文博园', pinyin: 'wenboyuan', py: 'wby', lat: '34.644454', lng: '112.446482' },
+    { id: 26, name: '隋唐园', pinyin: 'suitangyuan', py: 'sty', lat: '34.635927', lng: '112.439744' },
+    { id: 27, name: '体育中心', pinyin: 'tiyuzhongxin', py: 'tyzx', lat: '34.623444', lng: '112.438263' },
+    { id: 28, name: '市民之家', pinyin: 'shiminzhijia', py: 'smzj', lat: '34.617441', lng: '112.44646' },
+    { id: 29, name: '开元湖', pinyin: 'kaiyuanhu', py: 'kyh', lat: '34.614147', lng: '112.452747' },
+    { id: 30, name: '兴洛湖', pinyin: 'xingluohu', py: 'xlh', lat: '34.604531', lng: '112.453552' },
+    { id: 31, name: '龙门高铁站', pinyin: 'longmengaotiezhan', py: 'lmgtz', lat: '34.595806', lng: '112.456749' },
+    { id: 32, name: '八里堂', pinyin: 'balitang', py: 'blt', lat: '34.600036', lng: '112.474677' }
   ]
 };
