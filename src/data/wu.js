@@ -1,6 +1,7 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#3366CC', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ] }
+    { name: '1号线', color: '#3366CC', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ] },
+    { name: '2号线', color: '#3C9AFB', stations: [ 16, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ] }
   ],
   stationList: [
     { id: 0, name: '保顺路', pinyin: 'baoshunlu', py: 'bsl', lat: '31.47934', lng: '118.411317' },
@@ -27,6 +28,16 @@ export default {
     { id: 21, name: '文津东路', pinyin: 'wenjindonglu', py: 'wjdl', lat: '31.282448', lng: '118.384259' },
     { id: 22, name: '珩琅山路', pinyin: 'henglangshanlu', py: 'hlsl', lat: '31.262219', lng: '118.389366' },
     { id: 23, name: '芜湖南站', pinyin: 'wuhunanzhan', py: 'whnz', lat: '31.251323', lng: '118.379152' },
-    { id: 24, name: '白马山', pinyin: 'baimashan', py: 'bms', lat: '31.243985', lng: '118.371041' }
+    { id: 24, name: '白马山', pinyin: 'baimashan', py: 'bms', lat: '31.243985', lng: '118.371041' },
+    { id: 25, name: '文化路', pinyin: 'wenhualu', py: 'whl', lat: '31.335492', lng: '118.382958' },
+    { id: 26, name: '神山口', pinyin: 'shenshankou', py: 'ssk', lat: '31.338124', lng: '118.396904' },
+    { id: 27, name: '芜湖火车站', pinyin: 'wuhuhuochezhan', py: 'whhcz', lat: '31.348596', lng: '118.394888' },
+    { id: 28, name: '神山公园', pinyin: 'shenshangongyuan', py: 'ssgy', lat: '31.35741', lng: '118.409801' },
+    { id: 29, name: '云从路', pinyin: 'yunconglu', py: 'ycl', lat: '31.357392', lng: '118.421131' },
+    { id: 30, name: '政务中心', pinyin: 'zhengwuzhongxin', py: 'zwzx', lat: '31.35741', lng: '118.429349' },
+    { id: 31, name: '海晏路', pinyin: 'haiyanlu', py: 'hyl', lat: '31.35479', lng: '118.441537' },
+    { id: 32, name: '徽州路', pinyin: 'huizhoulu', py: 'hzl', lat: '31.356292', lng: '118.458102' },
+    { id: 33, name: '梦溪路', pinyin: 'mengxilu', py: 'mxl', lat: '31.351601', lng: '118.481062' },
+    { id: 34, name: '万春湖路', pinyin: 'wanchunhulu', py: 'wchl', lat: '31.363255', lng: '118.494194' }
   ]
 };

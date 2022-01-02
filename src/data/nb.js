@@ -1,9 +1,10 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#008BD8', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ] },
-    { name: '2号线', color: '#EA2F2F', stations: [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 9, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ] },
-    { name: '3号线', color: '#FFA329', stations: [ 44, 53, 54, 55, 13, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74 ] },
-    { name: '4号线', color: '#A2C60A', stations: [ 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 7, 86, 38, 87, 88, 89, 56, 90, 91, 92, 93, 94, 95, 96 ] }
+    { name: '1号线', color: '#1B8CD5', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ] },
+    { name: '2号线', color: '#E72C34', stations: [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 9, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52 ] },
+    { name: '3号线', color: '#FCA23B', stations: [ 44, 53, 54, 55, 13, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74 ] },
+    { name: '4号线', color: '#A3C630', stations: [ 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 7, 86, 38, 87, 88, 89, 56, 90, 91, 92, 93, 94, 95, 96 ] },
+    { name: '5号线', color: '#29329D', stations: [ 97, 98, 99, 32, 100, 101, 102, 61, 103, 93, 104, 105, 106, 107, 108, 16, 109, 110, 111, 112, 47, 113 ] }
   ],
   stationList: [
     { id: 0, name: '高桥西', pinyin: 'gaoqiaoxi', py: 'gqx', lat: '29.910784', lng: '121.453554' },
@@ -102,6 +103,23 @@ export default {
     { id: 93, name: '南高教园区', pinyin: 'nangaojiaoyuanqu', py: 'ngjyq', lat: '29.81675', lng: '121.580159' },
     { id: 94, name: '金达南路', pinyin: 'jindananlu', py: 'jdnl', lat: '29.804486', lng: '121.592551' },
     { id: 95, name: '小洋江', pinyin: 'xiaoyangjiang', py: 'xyj', lat: '29.794459', lng: '121.60962' },
-    { id: 96, name: '东钱湖', pinyin: 'dongqianhu', py: 'dqh', lat: '29.781646', lng: '121.629801' }
+    { id: 96, name: '东钱湖', pinyin: 'dongqianhu', py: 'dqh', lat: '29.781646', lng: '121.629801' },
+    { id: 97, name: '布政', pinyin: 'buzheng', py: 'bz', lat: '29.848526', lng: '121.469279' },
+    { id: 98, name: '张家潭', pinyin: 'zhangjiatan', py: 'zjt', lat: '29.840337', lng: '121.47415' },
+    { id: 99, name: '同德路', pinyin: 'tongdelu', py: 'tdl', lat: '29.82793', lng: '121.491466' },
+    { id: 100, name: '雅渡', pinyin: 'yadu', py: 'yd', lat: '29.817333', lng: '121.516153' },
+    { id: 101, name: '庙堰', pinyin: 'miaoyan', py: 'my', lat: '29.819386', lng: '121.529071' },
+    { id: 102, name: '钟公庙', pinyin: 'zhonggongmiao', py: 'zgm', lat: '29.819255', lng: '121.53921' },
+    { id: 103, name: '钱湖南路', pinyin: 'qianhunanlu', py: 'qhnl', lat: '29.819813', lng: '121.567838' },
+    { id: 104, name: '下应路', pinyin: 'xiayinglu', py: 'xyl', lat: '29.812127', lng: '121.591419' },
+    { id: 105, name: '大洋江', pinyin: 'dayangjiang', py: 'dyj', lat: '29.816093', lng: '121.601311' },
+    { id: 106, name: '泗港', pinyin: 'sigang', py: 'sg', lat: '29.824247', lng: '121.604508' },
+    { id: 107, name: '曹隘', pinyin: 'caoga', py: 'cg', lat: '29.840497', lng: '121.608757' },
+    { id: 108, name: '柳隘', pinyin: 'liuga', py: 'lg', lat: '29.852948', lng: '121.612254' },
+    { id: 109, name: '民安东路', pinyin: 'minandonglu', py: 'madl', lat: '29.868099', lng: '121.617271' },
+    { id: 110, name: '会展中心', pinyin: 'huizhanzhongxin', py: 'hzzx', lat: '29.87543', lng: '121.61946' },
+    { id: 111, name: '院士路', pinyin: 'yuanshilu', py: 'ysl', lat: '29.888621', lng: '121.622314' },
+    { id: 112, name: '盎孟港', pinyin: 'angmenggang', py: 'amg', lat: '29.897271', lng: '121.621949' },
+    { id: 113, name: '兴庄路', pinyin: 'xingzhuanglu', py: 'xzl', lat: '29.920781', lng: '121.614461' }
   ]
 };
