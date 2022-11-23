@@ -6,7 +6,7 @@ export default {
     { name: '将军澳线', color: '#8D6CC1', stations: [ 10, 11, 32, 33, 45, 46, 47, 48 ] },
     { name: '东涌线', color: '#FF9933', stations: [ 49, 50, 51, 52, 40, 53, 54, 55 ] },
     { name: '迪士尼线', color: '#FF99CC', stations: [ 54, 56 ] },
-    { name: '东铁线', color: '#6DB5E3', stations: [ 57, 58, 23, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68 ] },
+    { name: '东铁线', color: '#6DB5E3', stations: [ 5, 96, 57, 58, 23, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68 ] },
     { name: '屯马线', color: '#AA4B39', stations: [ 69, 70, 71, 72, 73, 74, 75, 76, 59, 77, 26, 78, 79, 80, 18, 57, 81, 82, 52, 39, 83, 84, 85, 86, 87, 88, 89 ] },
     { name: '机场快线', color: '#009999', stations: [ 49, 50, 53, 90, 91 ] },
     { name: '南港岛线', color: '#B1C94B', stations: [ 5, 92, 93, 94, 95 ] }
@@ -107,6 +107,7 @@ export default {
     { id: 92, name: '海洋公园', pinyin: 'haiyanggongyuan', py: 'hygy', lat: '22.248793', lng: '114.174489' },
     { id: 93, name: '黄竹坑', pinyin: 'huangzhukeng', py: 'hzk', lat: '22.248033', lng: '114.16801' },
     { id: 94, name: '利东', pinyin: 'lidong', py: 'ld', lat: '22.242092', lng: '114.156255' },
-    { id: 95, name: '海怡半岛', pinyin: 'haiyibandao', py: 'hybd', lat: '22.242886', lng: '114.148787' }
+    { id: 95, name: '海怡半岛', pinyin: 'haiyibandao', py: 'hybd', lat: '22.242886', lng: '114.148787' },
+    { id: 96, name: '会展', pinyin: 'huizhan', py: 'hz', lat: '22.281972', lng: '114.175222' }
   ]
 };

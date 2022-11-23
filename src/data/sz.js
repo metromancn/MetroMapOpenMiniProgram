@@ -8,9 +8,10 @@ export default {
     { name: '6号线', color: '#60C0C7', stations: [ 4, 87, 142, 143, 144, 145, 146, 100, 101, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164 ] },
     { name: '7号线', color: '#146CAC', stations: [ 165, 127, 166, 167, 168, 169, 170, 43, 171, 10, 172, 173, 91, 174, 95, 175, 176, 177, 52, 88, 178, 143, 179, 180, 181, 83, 140 ] },
     { name: '9号线', color: '#AC9299', stations: [ 118, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 10, 195, 47, 196, 197, 198, 97, 199, 144, 200, 179, 201, 86, 202, 203, 204, 205, 206 ] },
-    { name: '10号线', color: '#FDA1CB', stations: [ 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 132, 220, 221, 222, 199, 223, 89, 6, 95, 94 ] },
-    { name: '11号线', color: '#6E406F', stations: [ 224, 164, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 21, 235, 38, 191, 10, 49 ] },
-    { name: '20号线', color: '#8CDBDE', stations: [ 231, 236, 237, 238, 239 ] }
+    { name: '10号线', color: '#FDA1CB', stations: [ 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 132, 220, 221, 222, 199, 223, 89, 51, 6, 95, 94 ] },
+    { name: '11号线', color: '#6E406F', stations: [ 224, 164, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 21, 235, 38, 191, 10, 49, 51 ] },
+    { name: '14号线', color: '#F4C542', stations: [ 51, 178, 236, 80, 237, 238, 239, 240, 71, 241, 242, 243, 244, 245, 246, 247, 248, 249 ] },
+    { name: '20号线', color: '#8CDBDE', stations: [ 231, 250, 251, 252, 253 ] }
   ],
   stationList: [
     { id: 0, name: '罗湖', pinyin: 'luohu', py: 'lh', lat: '22.532089', lng: '114.118662' },
@@ -249,9 +250,23 @@ export default {
     { id: 233, name: '碧海湾', pinyin: 'bihaiwan', py: 'bhw', lat: '22.575105', lng: '113.856084' },
     { id: 234, name: '宝安', pinyin: 'baoan', py: 'ba', lat: '22.554577', lng: '113.880374' },
     { id: 235, name: '南山', pinyin: 'nanshan', py: 'ns', lat: '22.524103', lng: '113.923488' },
-    { id: 236, name: '国展南', pinyin: 'guozhannan', py: 'gzn', lat: '22.683908', lng: '113.779491' },
-    { id: 237, name: '国展', pinyin: 'guozhan', py: 'gz', lat: '22.695311', lng: '113.777903' },
-    { id: 238, name: '国展北', pinyin: 'guozhanbei', py: 'gzb', lat: '22.701923', lng: '113.776916' },
-    { id: 239, name: '会展城', pinyin: 'huizhancheng', py: 'hzc', lat: '22.711543', lng: '113.770414' }
+    { id: 236, name: '罗湖北', pinyin: 'luohubei', py: 'lhb', lat: '22.578892', lng: '114.112771' },
+    { id: 237, name: '石芽岭', pinyin: 'shiyaling', py: 'syl', lat: '22.628386', lng: '114.137727' },
+    { id: 238, name: '六约北', pinyin: 'liuyuebei', py: 'lyb', lat: '22.642517', lng: '114.174838' },
+    { id: 239, name: '四联', pinyin: 'silian', py: 'sl', lat: '22.64929', lng: '114.194922' },
+    { id: 240, name: '坳背', pinyin: 'aobei', py: 'ab', lat: '22.668972', lng: '114.213633' },
+    { id: 241, name: '嶂背', pinyin: 'zhangbei', py: 'zb', lat: '22.692333', lng: '114.249762' },
+    { id: 242, name: '南约', pinyin: 'nanyue', py: 'ny', lat: '22.688086', lng: '114.277614' },
+    { id: 243, name: '宝龙', pinyin: 'baolong', py: 'bl', lat: '22.688363', lng: '114.297656' },
+    { id: 244, name: '锦龙', pinyin: 'jinlong', py: 'jl', lat: '22.680142', lng: '114.333833' },
+    { id: 245, name: '坪山围', pinyin: 'pingshanwei', py: 'psw', lat: '22.690591', lng: '114.34321' },
+    { id: 246, name: '坪山广场', pinyin: 'pingshanguangchuang', py: 'psgc', lat: '22.700548', lng: '114.348768' },
+    { id: 247, name: '坪山中心', pinyin: 'pingshanzhongxin', py: 'pszx', lat: '22.709772', lng: '114.352394' },
+    { id: 248, name: '坑梓', pinyin: 'kengzi', py: 'kz', lat: '22.745199', lng: '114.370826' },
+    { id: 249, name: '沙田', pinyin: 'shatian', py: 'st', lat: '22.756142', lng: '114.400653' },
+    { id: 250, name: '国展南', pinyin: 'guozhannan', py: 'gzn', lat: '22.683908', lng: '113.779491' },
+    { id: 251, name: '国展', pinyin: 'guozhan', py: 'gz', lat: '22.695311', lng: '113.777903' },
+    { id: 252, name: '国展北', pinyin: 'guozhanbei', py: 'gzb', lat: '22.701923', lng: '113.776916' },
+    { id: 253, name: '会展城', pinyin: 'huizhancheng', py: 'hzc', lat: '22.711543', lng: '113.770414' }
   ]
 };
