@@ -50,8 +50,7 @@ export default {
 { key: "wu", lat: 31.331765, lng: 118.374903, name: "芜湖", english: "Wuhu", pinyin: "wuhu", py: "wh", other: "", now: "1", plan: "1", more: "0" },
 { key: "jh", lat: 29.114609, lng: 119.736956, name: "金华", english: "Jinhua", pinyin: "jinhua", py: "jh", other: "", now: "1", plan: "1", more: "0" },
 { key: "nt", lat: 31.974294, lng: 120.896053, name: "南通", english: "Nantong", pinyin: "nantong", py: "nt", other: "", now: "1", plan: "1", more: "0" },
-{ key: "li", lat: 30, lng: 120, name: "柳州(即将开通)", english: "Liuzhou", pinyin: "liuzhou", py: "lz", other: "", now: "0", plan: "1", more: "0" },
-{ key: "tz", lat: 30, lng: 120, name: "台州(即将开通)", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "0", plan: "1", more: "0" }
+{ key: "tz", lat: 28.652446, lng: 121.37253, name: "台州", english: "Taizhou", pinyin: "taizhou", py: "tz", other: "", now: "1", plan: "1", more: "0" }
   ],
   hotList: [
 { key: "bj", hot: ["北京南站", "北京西站", "北京站", "3号航站楼", "2号航站楼", "东直门", "西直门", "天安门东", "前门", "国贸"] },
@@ -100,6 +99,7 @@ export default {
 { key: "ly", hot: ["牡丹广场", "解放路", "青年宫"] },
 { key: "wu", hot: ["鸠兹广场", "奧体中心", "博览中心"] },
 { key: "jh", hot: ["金华站", "万达广场", "金华南站"] },
-{ key: "nt", hot: ["政务中心", "图书馆", "南通大学"] }
+{ key: "nt", hot: ["政务中心", "图书馆", "南通大学"] },
+{ key: "tz", hot: ["台州火车站", "国博中心", "台州汽车南站"] }
   ]
 };
