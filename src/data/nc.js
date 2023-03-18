@@ -60,7 +60,7 @@ export default {
     { id: 51, name: '斗门', pinyin: 'doumen', py: 'dm', lat: '28.528775', lng: '115.927978' },
     { id: 52, name: '柏岗', pinyin: 'baigang', py: 'bg', lat: '28.544327', lng: '115.918194' },
     { id: 53, name: '沥山', pinyin: 'lishan', py: 'ls', lat: '28.556503', lng: '115.915941' },
-    { id: 54, name: '振兴大道', pinyin: 'zhenxingdadao', py: 'zxdd', lat: '28.576912', lng: '115.912186' },
+    { id: 54, name: '复兴大道东', pinyin: 'fuxingdadaodong', py: 'fxddd', lat: '28.576912', lng: '115.912186' },
     { id: 55, name: '邓埠', pinyin: 'dengbu', py: 'db', lat: '28.589499', lng: '115.90989' },
     { id: 56, name: '八大山人', pinyin: 'badashanren', py: 'bdsr', lat: '28.60231', lng: '115.908388' },
     { id: 57, name: '施尧', pinyin: 'shiyao', py: 'sy', lat: '28.616363', lng: '115.907765' },

@@ -5,8 +5,8 @@ export default {
     { name: '3号线', color: '#FF9900', stations: [ 66, 67, 68, 69, 70, 71, 72, 73, 15, 74, 43, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84 ] },
     { name: '4号线', color: '#3DA0F2', stations: [ 85, 66, 86, 87, 88, 89, 38, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 20, 101, 78, 102, 103, 104, 105, 106, 107 ] },
     { name: '5号线', color: '#339966', stations: [ 108, 109, 71, 110, 42, 111, 112, 113, 100, 114, 115, 116, 24, 117, 82, 118, 119, 120, 121, 103, 122, 123, 46, 124, 125, 126, 127, 128, 129, 130, 131, 10, 108 ] },
-    { name: '6号线', color: '#AA139C', stations: [ 132, 133, 134, 135, 136, 137, 138, 141, 139 ] },
-    { name: '14号线', color: '#D59FE2', stations: [ 5, 140, 141 ] }
+    { name: '6号线', color: '#AA139C', stations: [ 132, 133, 134, 135, 136, 137, 138, 139, 142, 140 ] },
+    { name: '14号线', color: '#D59FE2', stations: [ 5, 141, 142 ] }
   ],
   stationList: [
     { id: 0, name: '河南工业大学', pinyin: 'henangongyedaxue', py: 'hngydx', lat: '34.826588', lng: '113.542167' },
@@ -147,9 +147,10 @@ export default {
     { id: 135, name: '安宁路', pinyin: 'anninglu', py: 'anl', lat: '34.69187', lng: '113.51666' },
     { id: 136, name: '马寨', pinyin: 'mazhai', py: 'mz', lat: '34.703355', lng: '113.51658' },
     { id: 137, name: '河南建院', pinyin: 'henanjianyuan', py: 'hnjy', lat: '34.714375', lng: '113.517787' },
-    { id: 138, name: '奥体中心西', pinyin: 'aotizhongxinxi', py: 'atzxx', lat: '34.739757', lng: '113.523848' },
-    { id: 139, name: '常庄', pinyin: 'changzhuang', py: 'cz', lat: '34.738893', lng: '113.558567' },
-    { id: 140, name: '市委党校', pinyin: 'shiweidangxiao', py: 'swdx', lat: '34.747501', lng: '113.541006' },
-    { id: 141, name: '奥体中心', pinyin: 'aotizhongxin', py: 'atzx', lat: '34.738825', lng: '113.541079' }
+    { id: 138, name: '金桢路', pinyin: 'jinzhenlu', py: 'jzl', lat: '34.734714', lng: '113.512691' },
+    { id: 139, name: '奥体中心西', pinyin: 'aotizhongxinxi', py: 'atzxx', lat: '34.739757', lng: '113.523848' },
+    { id: 140, name: '常庄', pinyin: 'changzhuang', py: 'cz', lat: '34.738893', lng: '113.558567' },
+    { id: 141, name: '市委党校', pinyin: 'shiweidangxiao', py: 'swdx', lat: '34.747501', lng: '113.541006' },
+    { id: 142, name: '奥体中心', pinyin: 'aotizhongxin', py: 'atzx', lat: '34.738825', lng: '113.541079' }
   ]
 };

@@ -9,7 +9,8 @@ export default {
     { name: '新北投支线', color: '#FF94A9', stations: [ 43, 107 ] },
     { name: '环状线', color: '#FFCC00', stations: [ 53, 108, 109, 110, 67, 111, 112, 113, 114, 115, 116, 78, 117, 118 ] },
     { name: '桃园国际机场捷运', color: '#0066CC', stations: [ 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139 ] },
-    { name: '淡海轻轨', color: '#F99898', stations: [ 48, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152 ] }
+    { name: '淡海轻轨', color: '#F99898', stations: [ 48, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152 ] },
+    { name: '安坑轻轨', color: '#C3B091', stations: [ 153, 154, 155, 156, 157, 158, 159, 160, 108 ] }
   ],
   stationList: [
     { id: 0, name: '动物园', pinyin: 'dongwuyuan', py: 'dwy', lat: '24.998305', lng: '121.579435' },
@@ -164,6 +165,14 @@ export default {
     { id: 149, name: '崁顶', pinyin: 'kanding', py: 'kd', lat: '25.200881', lng: '121.434619' },
     { id: 150, name: '台北海洋大学', pinyin: 'taibeihaiyangdaxue', py: 'tbhydx', lat: '25.191126', lng: '121.426361' },
     { id: 151, name: '沙仑', pinyin: 'shalun', py: 'sl', lat: '25.187495', lng: '121.417284' },
-    { id: 152, name: '淡水渔人码头', pinyin: 'danshuiyurenmatou', py: 'dsyrmt', lat: '25.182038', lng: '121.418604' }
+    { id: 152, name: '淡水渔人码头', pinyin: 'danshuiyurenmatou', py: 'dsyrmt', lat: '25.182038', lng: '121.418604' },
+    { id: 153, name: '双城', pinyin: 'shuangcheng', py: 'sc', lat: '24.946444', lng: '121.489778' },
+    { id: 154, name: '玫瑰中国城', pinyin: 'meiguizhongguocheng', py: 'mgzgc', lat: '24.95075', lng: '121.493889' },
+    { id: 155, name: '台北小城', pinyin: 'taibeixiaocheng', py: 'tbxc', lat: '24.953694', lng: '121.499333' },
+    { id: 156, name: '耕莘安康院区', pinyin: 'gengxinankangyuanqu', py: 'gxakyq', lat: '24.954472', lng: '121.505' },
+    { id: 157, name: '景文科大', pinyin: 'jingwenkeda', py: 'jwkd', lat: '24.955583', lng: '121.510472' },
+    { id: 158, name: '安康', pinyin: 'ankang', py: 'ak', lat: '24.965167', lng: '121.517167' },
+    { id: 159, name: '阳光运动公园', pinyin: 'yangguangyundonggongyuan', py: 'ygydgy', lat: '24.972333', lng: '121.519528' },
+    { id: 160, name: '新和国小', pinyin: 'xinheguoxiao', py: 'xhgx', lat: '24.983472', lng: '121.518667' }
   ]
 };
