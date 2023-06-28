@@ -11,7 +11,8 @@ export default {
     { name: 'S6号线', color: '#CF93D6', stations: [ 53, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158 ] },
     { name: 'S7号线', color: '#F980AD', stations: [ 129, 159, 160, 161, 162, 163, 164, 165, 166 ] },
     { name: 'S8号线', color: '#FC9841', stations: [ 167, 168, 169, 64, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184 ] },
-    { name: 'S9号线', color: '#FDC131', stations: [ 127, 185, 186, 187, 188, 189 ] }
+    { name: 'S9号线', color: '#FDC131', stations: [ 127, 185, 186, 187, 188, 189 ] },
+    { name: '宁滁线', color: '#FB521C', stations: [ 190, 191, 192, 193, 194, 195, 196, 197, 198, 199 ] }
   ],
   stationList: [
     { id: 0, name: '八卦洲大桥南', pinyin: 'baguazhoudaqiaonan', py: 'bgzdqn', lat: '32.146619', lng: '118.843301' },
@@ -203,6 +204,16 @@ export default {
     { id: 186, name: '石湫', pinyin: 'shiqiu', py: 'sq', lat: '31.640522', lng: '118.907162' },
     { id: 187, name: '明觉', pinyin: 'mingjue', py: 'mj', lat: '31.546357', lng: '118.902012' },
     { id: 188, name: '团结圩', pinyin: 'tuanjiewei', py: 'tjw', lat: '31.395993', lng: '118.887507' },
-    { id: 189, name: '高淳', pinyin: 'gaochun', py: 'gc', lat: '31.341176', lng: '118.877121' }
+    { id: 189, name: '高淳', pinyin: 'gaochun', py: 'gc', lat: '31.341176', lng: '118.877121' },
+    { id: 190, name: '汊河', pinyin: 'chahe', py: 'ch', lat: '32.210911', lng: '118.596244' },
+    { id: 191, name: '汊河新城', pinyin: 'chahexincheng', py: 'chxc', lat: '32.237495', lng: '118.584239' },
+    { id: 192, name: '十二里半', pinyin: 'shierliban', py: 'selb', lat: '32.289525', lng: '118.508912' },
+    { id: 193, name: '林楼', pinyin: 'linlou', py: 'll', lat: '32.311761', lng: '118.410979' },
+    { id: 194, name: '大王郢', pinyin: 'dawangying', py: 'dwy', lat: '32.307263', lng: '118.391409' },
+    { id: 195, name: '苏滁商务中心', pinyin: 'suchushangwuzhongxin', py: 'scswzx', lat: '32.281942', lng: '118.387418' },
+    { id: 196, name: '滁州政务中心', pinyin: 'chuzhouzhengwuzhongxin', py: 'czzwzx', lat: '32.253783', lng: '118.334117' },
+    { id: 197, name: '琅琊山', pinyin: 'langyashan', py: 'lys', lat: '32.253665', lng: '118.30833' },
+    { id: 198, name: '花博园', pinyin: 'huaboyuan', py: 'hby', lat: '32.23676', lng: '118.302918' },
+    { id: 199, name: '滁州高铁站', pinyin: 'chuzhougaotiezhan', py: 'czgtz', lat: '32.199654', lng: '118.321586' }
   ]
 };
