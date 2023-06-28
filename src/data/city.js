@@ -10,7 +10,7 @@ export default {
 { key: "hk", lat: 22.284659, lng: 114.158185, name: "香港", english: "Hong Kong", pinyin: "xianggang", py: "xg", other: "hk|hongkong|hong kong", now: "1", plan: "1", more: "0" },
 { key: "tb", lat: 25.046256, lng: 121.51753, name: "台北", english: "Taipei", pinyin: "taibei", py: "tb", other: "tp|taipei", now: "1", plan: "1", more: "0" },
 { key: "am", lat: 22.150129, lng: 113.575533, name: "澳门", english: "Macau", pinyin: "aomen", py: "am", other: "macau", now: "1", plan: "1", more: "0" },
-{ key: "nj", lat: 32.040995, lng: 118.78408, name: "南京", english: "Nanjing", pinyin: "nanjing", py: "nj", other: "", now: "1", plan: "1", more: "0" },
+{ key: "nj", lat: 32.040995, lng: 118.78408, name: "南京 滁州", english: "Nanjing", pinyin: "nanjing", py: "nj", other: "", now: "1", plan: "1", more: "0" },
 { key: "tj", lat: 39.137775, lng: 117.21161, name: "天津", english: "Tianjin", pinyin: "tianjin", py: "tj", other: "", now: "1", plan: "1", more: "0" },
 { key: "cq", lat: 29.552992, lng: 106.548273, name: "重庆", english: "Chongqing", pinyin: "chongqing", py: "cq", other: "", now: "1", plan: "1", more: "0" },
 { key: "cd", lat: 30.658071, lng: 104.065798, name: "成都", english: "Chengdu", pinyin: "chengdu", py: "cd", other: "", now: "1", plan: "1", more: "0" },
