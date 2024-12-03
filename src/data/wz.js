@@ -1,6 +1,7 @@
 export default {
   lineList: [
-    { name: 'S1线', color: '#03A0E9', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ] }
+    { name: 'S1线', color: '#03A0E9', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ] },
+    { name: 'S2线', color: '#EA3F3F', stations: [ 18, 19, 20, 21, 22, 23, 24, 14, 13, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35 ] }
   ],
   stationList: [
     { id: 0, name: '桐岭', pinyin: 'tongling', py: 'tl', lat: '27.920602', lng: '120.568497' },
@@ -20,6 +21,24 @@ export default {
     { id: 14, name: '灵昆', pinyin: 'lingkun', py: 'lk', lat: '27.953185', lng: '120.891977' },
     { id: 15, name: '瓯江口', pinyin: 'oujiangkou', py: 'ojk', lat: '27.940522', lng: '120.919786' },
     { id: 16, name: '瓯华', pinyin: 'ouhua', py: 'oh', lat: '27.930589', lng: '120.934892' },
-    { id: 17, name: '双瓯大道', pinyin: 'shuangoudadao', py: 'sodd', lat: '27.923991', lng: '120.944677' }
+    { id: 17, name: '双瓯大道', pinyin: 'shuangoudadao', py: 'sodd', lat: '27.923991', lng: '120.944677' },
+    { id: 18, name: '清东路', pinyin: 'qingdonglu', py: 'qdl', lat: '28.129249', lng: '121.00294' },
+    { id: 19, name: '旭阳路', pinyin: 'xuyanglu', py: 'xyl', lat: '28.108469', lng: '120.986203' },
+    { id: 20, name: '万岙', pinyin: 'wanao', py: 'wa', lat: '28.087875', lng: '120.967921' },
+    { id: 21, name: '盐盆', pinyin: 'yanpen', py: 'yp', lat: '28.064019', lng: '120.974058' },
+    { id: 22, name: '新望', pinyin: 'xinwang', py: 'xw', lat: '28.038833', lng: '120.978607' },
+    { id: 23, name: '翁垟', pinyin: 'wengyang', py: 'wy', lat: '28.019211', lng: '120.979551' },
+    { id: 24, name: '柳市东', pinyin: 'liushidong', py: 'lsd', lat: '27.992081', lng: '120.95466' },
+    { id: 25, name: '永兴', pinyin: 'yongxing', py: 'yx', lat: '27.887062', lng: '120.82291' },
+    { id: 26, name: '沙城', pinyin: 'shacheng', py: 'sc', lat: '27.871053', lng: '120.807418' },
+    { id: 27, name: '天河', pinyin: 'tianhe', py: 'th', lat: '27.848402', lng: '120.792226' },
+    { id: 28, name: '海城', pinyin: 'haicheng', py: 'hc', lat: '27.826734', lng: '120.778536' },
+    { id: 29, name: '鲍田', pinyin: 'baotian', py: 'bt', lat: '27.809008', lng: '120.735277' },
+    { id: 30, name: '大典下', pinyin: 'dadianxia', py: 'ddx', lat: '27.791925', lng: '120.719141' },
+    { id: 31, name: '汀田', pinyin: 'tingtian', py: 'tt', lat: '27.783003', lng: '120.709485' },
+    { id: 32, name: '莘塍', pinyin: 'xincheng', py: 'xc', lat: '27.769144', lng: '120.695151' },
+    { id: 33, name: '上望', pinyin: 'shangwang', py: 'sw', lat: '27.757638', lng: '120.683392' },
+    { id: 34, name: '上东路', pinyin: 'shangdonglu', py: 'sdl', lat: '27.755207', lng: '120.671805' },
+    { id: 35, name: '东山', pinyin: 'dongshan', py: 'ds', lat: '27.753194', lng: '120.654896' }
   ]
 };

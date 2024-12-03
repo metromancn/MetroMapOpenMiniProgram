@@ -1,6 +1,6 @@
 export default {
   lineList: [
-    { name: '金义东线', color: '#E23038', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 ] }
+    { name: '金义东线', color: '#E23038', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ] }
   ],
   stationList: [
     { id: 0, name: '金华站', pinyin: 'jinhuazhan', py: 'jhz', lat: '29.107153', lng: '119.636336' },
@@ -29,6 +29,7 @@ export default {
     { id: 23, name: '人民路', pinyin: 'renminlu', py: 'rml', lat: '29.277442', lng: '120.239197' },
     { id: 24, name: '会展中心', pinyin: 'huizhanzhongxin', py: 'hzzx', lat: '29.271246', lng: '120.259496' },
     { id: 25, name: '体育馆', pinyin: 'tiyuguan', py: 'tyg', lat: '29.266379', lng: '120.279946' },
-    { id: 26, name: '明清宫', pinyin: 'mingqinggong', py: 'mqg', lat: '29.175199', lng: '120.307031' }
+    { id: 26, name: '横店高铁站', pinyin: 'hengdiangaotiezhan', py: 'hdgtz', lat: '29.214611', lng: '120.264287' },
+    { id: 27, name: '明清宫', pinyin: 'mingqinggong', py: 'mqg', lat: '29.175199', lng: '120.307031' }
   ]
 };

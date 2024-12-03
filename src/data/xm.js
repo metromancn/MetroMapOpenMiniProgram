@@ -66,7 +66,7 @@ export default {
     { id: 58, name: '安兜', pinyin: 'andou', py: 'ad', lat: '24.517805', lng: '118.138372' },
     { id: 59, name: '坂尚', pinyin: 'banshang', py: 'bs', lat: '24.519211', lng: '118.146724' },
     { id: 60, name: '湖里创新园', pinyin: 'hulichuangxinyuan', py: 'hlcxy', lat: '24.522944', lng: '118.156133' },
-    { id: 61, name: '体育会展', pinyin: 'tiyuhuizhan', py: 'tyhz', lat: '24.55637', lng: '118.208402' },
+    { id: 61, name: '国际博览中心', pinyin: 'guojibolanzhongxin', py: 'gjblzx', lat: '24.55637', lng: '118.208402' },
     { id: 62, name: '东界', pinyin: 'dongjie', py: 'dj', lat: '24.56484', lng: '118.219421' },
     { id: 63, name: '洪坑', pinyin: 'hongkeng', py: 'hk', lat: '24.5715', lng: '118.226604' },
     { id: 64, name: '林前', pinyin: 'linqian', py: 'lq', lat: '24.576071', lng: '118.231958' },

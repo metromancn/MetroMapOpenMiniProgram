@@ -1,6 +1,6 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#3366CC', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ] },
+    { name: '1号线', color: '#EA3D3D', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ] },
     { name: '2号线', color: '#3C9AFB', stations: [ 16, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ] }
   ],
   stationList: [
@@ -22,7 +22,7 @@ export default {
     { id: 15, name: '中山北路', pinyin: 'zhongshanbeilu', py: 'zsbl', lat: '31.340342', lng: '118.368187' },
     { id: 16, name: '鸠兹广场', pinyin: 'jiuziguangchang', py: 'jzgc', lat: '31.331765', lng: '118.374903' },
     { id: 17, name: '环城北路', pinyin: 'huanchengbeilu', py: 'hcbl', lat: '31.323938', lng: '118.380868' },
-    { id: 18, name: '奧体中心', pinyin: 'aotizhongxin', py: 'atzx', lat: '31.312518', lng: '118.378723' },
+    { id: 18, name: '奥体中心', pinyin: 'aotizhongxin', py: 'atzx', lat: '31.312518', lng: '118.378723' },
     { id: 19, name: '红花山路', pinyin: 'honghuashanlu', py: 'hhsl', lat: '31.302453', lng: '118.379753' },
     { id: 20, name: '博览中心', pinyin: 'bolanzhongxin', py: 'blzx', lat: '31.292864', lng: '118.38119' },
     { id: 21, name: '文津东路', pinyin: 'wenjindonglu', py: 'wjdl', lat: '31.282448', lng: '118.384259' },

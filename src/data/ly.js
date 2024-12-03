@@ -17,7 +17,7 @@ export default {
     { id: 10, name: '周王城广场', pinyin: 'zhouwangchengguangchang', py: 'zwcgc', lat: '34.672853', lng: '112.443799' },
     { id: 11, name: '应天门', pinyin: 'yingtianmen', py: 'ytm', lat: '34.677654', lng: '112.456635' },
     { id: 12, name: '丽景门', pinyin: 'lijingmen', py: 'ljm', lat: '34.682485', lng: '112.469717' },
-    { id: 13, name: '青年宫', pinyin: 'qingniangong', py: 'qng', lat: '34.684203', lng: '112.481276' },
+    { id: 13, name: '洛邑古城', pinyin: 'luoyigucheng', py: 'lygc', lat: '34.684203', lng: '112.481276' },
     { id: 14, name: '夹马营', pinyin: 'jiamaying', py: 'jmy', lat: '34.685983', lng: '112.495581' },
     { id: 15, name: '启明南路', pinyin: 'qimingnanlu', py: 'qmnl', lat: '34.687924', lng: '112.504464' },
     { id: 16, name: '塔湾', pinyin: 'tawan', py: 'tw', lat: '34.690076', lng: '112.517747' },

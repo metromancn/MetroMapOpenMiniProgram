@@ -1,7 +1,7 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#FF0000', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ] },
-    { name: '2号线', color: '#23BEE2', stations: [ 29, 30, 31, 32, 33, 34, 15, 35, 36, 37, 38, 39, 40, 41, 42 ] }
+    { name: '1号线', color: '#DF071C', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ] },
+    { name: '2号线', color: '#23B8CF', stations: [ 29, 30, 31, 32, 33, 34, 15, 35, 36, 37, 38, 39, 40, 41, 42 ] }
   ],
   stationList: [
     { id: 0, name: '森林公园', pinyin: 'senlingongyuan', py: 'slgy', lat: '31.900262', lng: '119.965166' },
@@ -33,19 +33,19 @@ export default {
     { id: 26, name: '武进沿江城际', pinyin: 'wujinyanjiangchengji', py: 'wjyjcj', lat: '31.659635', lng: '119.948638' },
     { id: 27, name: '阳湖路', pinyin: 'yanghulu', py: 'yhl', lat: '31.645536', lng: '119.950945' },
     { id: 28, name: '南夏墅', pinyin: 'nanxiashu', py: 'nhs', lat: '31.632292', lng: '119.952061' },
-    { id: 29, name: '青枫公园', pinyin: 'qingfenggongyuan', py: 'qfgy', lat: '31.80252', lng: '119.899024' },
-    { id: 30, name: '海棠路', pinyin: 'haitanglu', py: 'htl', lat: '31.798417', lng: '119.908208' },
+    { id: 29, name: '青枫公园', pinyin: 'qingfenggongyuan', py: 'qfgy', lat: '31.802315', lng: '119.899604' },
+    { id: 30, name: '海棠路', pinyin: 'haitanglu', py: 'htl', lat: '31.798211', lng: '119.908509' },
     { id: 31, name: '五星', pinyin: 'wuxing', py: 'wx', lat: '31.792617', lng: '119.918036' },
-    { id: 32, name: '勤业', pinyin: 'qinye', py: 'qy', lat: '31.786097', lng: '119.928872' },
-    { id: 33, name: '怀德', pinyin: 'huaide', py: 'hd', lat: '31.779512', lng: '119.943527' },
-    { id: 34, name: '南大街', pinyin: 'nandajie', py: 'ndj', lat: '31.779262', lng: '119.954921' },
-    { id: 35, name: '红梅公园', pinyin: 'hongmeigongyuan', py: 'hmgy', lat: '31.770187', lng: '119.973262' },
-    { id: 36, name: '五角场', pinyin: 'wujiaochang', py: 'wjc', lat: '31.772768', lng: '119.985343' },
-    { id: 37, name: '三角场', pinyin: 'sanjiaochang', py: 'sjc', lat: '31.777054', lng: '119.993252' },
-    { id: 38, name: '紫云', pinyin: 'ziyun', py: 'zy', lat: '31.769032', lng: '120.005885' },
-    { id: 39, name: '青洋路', pinyin: 'qingyanglu', py: 'qyl', lat: '31.760813', lng: '120.016056' },
-    { id: 40, name: '丁堰', pinyin: 'dingyan', py: 'dy', lat: '31.752639', lng: '120.031162' },
+    { id: 32, name: '勤业', pinyin: 'qinye', py: 'qy', lat: '31.786329', lng: '119.928604' },
+    { id: 33, name: '怀德', pinyin: 'huaide', py: 'hd', lat: '31.780296', lng: '119.942455' },
+    { id: 34, name: '南大街', pinyin: 'nandajie', py: 'ndj', lat: '31.779858', lng: '119.953184' },
+    { id: 35, name: '红梅公园', pinyin: 'hongmeigongyuan', py: 'hmgy', lat: '31.770384', lng: '119.972915' },
+    { id: 36, name: '五角场', pinyin: 'wujiaochang', py: 'wjc', lat: '31.769496', lng: '119.985513' },
+    { id: 37, name: '三角场', pinyin: 'sanjiaochang', py: 'sjc', lat: '31.777499', lng: '119.992623' },
+    { id: 38, name: '紫云', pinyin: 'ziyun', py: 'zy', lat: '31.769162', lng: '120.005562' },
+    { id: 39, name: '青洋路', pinyin: 'qingyanglu', py: 'qyl', lat: '31.76004', lng: '120.016956' },
+    { id: 40, name: '丁堰', pinyin: 'dingyan', py: 'dy', lat: '31.753271', lng: '120.0282' },
     { id: 41, name: '潞城', pinyin: 'lucheng', py: 'lc', lat: '31.755544', lng: '120.050037' },
-    { id: 42, name: '五一路', pinyin: 'wuyilu', py: 'wyl', lat: '31.758295', lng: '120.06558' }
+    { id: 42, name: '五一路', pinyin: 'wuyilu', py: 'wyl', lat: '31.758003', lng: '120.063723' }
   ]
 };

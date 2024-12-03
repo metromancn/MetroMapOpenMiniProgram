@@ -1,6 +1,7 @@
 export default {
   lineList: [
-    { name: '1号线', color: '#EC464C', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ] }
+    { name: '1号线', color: '#EC464C', stations: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27 ] },
+    { name: '2号线', color: '#4095E5', stations: [ 28, 29, 30, 31, 32, 11, 33, 34, 14, 35, 36, 37, 38, 39, 40, 41 ] }
   ],
   stationList: [
     { id: 0, name: '平潮', pinyin: 'pingchao', py: 'pc', lat: '32.106356', lng: '120.757115' },
@@ -30,6 +31,20 @@ export default {
     { id: 24, name: '紫琅湖', pinyin: 'zilanghu', py: 'zlh', lat: '31.954051', lng: '120.94753' },
     { id: 25, name: '能达商务区', pinyin: 'nengdashangwuqu', py: 'ndswq', lat: '31.933585', lng: '120.958924' },
     { id: 26, name: '航运学院', pinyin: 'hangyunxueyuan', py: 'hyxy', lat: '31.921802', lng: '120.958838' },
-    { id: 27, name: '振兴路', pinyin: 'zhenxinglu', py: 'zxl', lat: '31.910409', lng: '120.956188' }
+    { id: 27, name: '振兴路', pinyin: 'zhenxinglu', py: 'zxl', lat: '31.910409', lng: '120.956188' },
+    { id: 28, name: '幸福', pinyin: 'xingfu', py: 'xf', lat: '32.08608', lng: '120.852068' },
+    { id: 29, name: '长岸', pinyin: 'changan', py: 'ca', lat: '32.058152', lng: '120.861552' },
+    { id: 30, name: '北大街', pinyin: 'beidajie', py: 'bdj', lat: '32.04693', lng: '120.86108' },
+    { id: 31, name: '北城大桥', pinyin: 'beichengdaqiao', py: 'bcdq', lat: '32.038254', lng: '120.860994' },
+    { id: 32, name: '钟秀西路', pinyin: 'zhongxiuxilu', py: 'zxxl', lat: '32.0282', lng: '120.855823' },
+    { id: 33, name: '体育公园', pinyin: 'tiyugongyuan', py: 'tygy', lat: '32.005934', lng: '120.862796' },
+    { id: 34, name: '易家桥', pinyin: 'yijiaqiao', py: 'yjq', lat: '32.003418', lng: '120.87544' },
+    { id: 35, name: '五一路', pinyin: 'wuyilu', py: 'wyl', lat: '32.006284', lng: '120.891469' },
+    { id: 36, name: '园林路', pinyin: 'yuanlinlu', py: 'yll', lat: '32.003245', lng: '120.907713' },
+    { id: 37, name: '汽车东站', pinyin: 'qichedongzhan', py: 'qcdz', lat: '32.00148', lng: '120.91842' },
+    { id: 38, name: '通富北路', pinyin: 'tongfubeilu', py: 'tfbl', lat: '32.000261', lng: '120.927733' },
+    { id: 39, name: '观音山', pinyin: 'guanyinshan', py: 'gys', lat: '31.998951', lng: '120.939105' },
+    { id: 40, name: '南通东站', pinyin: 'nantongdongzhan', py: 'ntdz', lat: '31.998751', lng: '120.953997' },
+    { id: 41, name: '先锋', pinyin: 'xianfeng', py: 'xf', lat: '32.002608', lng: '120.981806' }
   ]
 };
