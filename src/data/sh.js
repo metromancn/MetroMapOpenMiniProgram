@@ -20,7 +20,8 @@ export default {
     { name: '18号线', color: '#DBAD78', stations: [ 74, 389, 390, 391, 233, 392, 186, 295, 393, 394, 337, 129, 202, 395, 45, 396, 397, 320, 255, 398, 399, 400, 401, 402, 403, 404 ] },
     { name: '浦江线', color: '#B3B3C5', stations: [ 168, 405, 406, 407, 408, 409 ] },
     { name: '金山铁路', color: '#687483', stations: [ 4, 410, 411, 412, 413, 414, 415, 416 ] },
-    { name: '磁浮线', color: '#6FBCB8', stations: [ 45, 56 ] }
+    { name: '磁浮线', color: '#6FBCB8', stations: [ 45, 56 ] },
+    { name: '市域机场线', color: '#686C72', stations: [ 417, 213, 418, 419, 420, 421, 422 ] }
   ],
   stationList: [
     { id: 0, name: '莘庄', pinyin: 'xinzhuang', py: 'xz', lat: '31.111151', lng: '121.385363' },
@@ -439,6 +440,12 @@ export default {
     { id: 413, name: '叶榭', pinyin: 'yexie', py: 'yx', lat: '30.940133', lng: '121.329883' },
     { id: 414, name: '亭林', pinyin: 'tinglin', py: 'tl', lat: '30.894716', lng: '121.359081' },
     { id: 415, name: '金山园区', pinyin: 'jinshanyuanqu', py: 'jsyq', lat: '30.829865', lng: '121.368426' },
-    { id: 416, name: '金山卫', pinyin: 'jinshanwei', py: 'jsw', lat: '30.728362', lng: '121.362531' }
+    { id: 416, name: '金山卫', pinyin: 'jinshanwei', py: 'jsw', lat: '30.728362', lng: '121.362531' },
+    { id: 417, name: '虹桥2号航站楼(市域)', pinyin: 'hongqiaoerhaohangzhanloul', py: 'hqehhzl', lat: '31.194014', lng: '121.32331' },
+    { id: 418, name: '景洪路(市域)', pinyin: 'jinghonglul', py: 'jhl', lat: '31.109913', lng: '121.445305' },
+    { id: 419, name: '三林南', pinyin: 'sanlinnan', py: 'sln', lat: '31.126078', lng: '121.487149' },
+    { id: 420, name: '康桥东', pinyin: 'kangqiaodong', py: 'kqd', lat: '31.146807', lng: '121.614892' },
+    { id: 421, name: '上海国际旅游度假区', pinyin: 'shanghaiguojilvyoudujiaqu', py: 'shgjlydjq', lat: '31.156128', lng: '121.679521' },
+    { id: 422, name: '浦东1号2号航站楼(市域)', pinyin: 'pudongyihaoerhaohangzhanloul', py: 'pdyhehhzl', lat: '31.149944', lng: '121.805607' }
   ]
 };

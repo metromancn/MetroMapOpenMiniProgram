@@ -108,6 +108,6 @@ export default {
     { id: 93, name: '黄竹坑', pinyin: 'huangzhukeng', py: 'hzk', lat: '22.248033', lng: '114.16801' },
     { id: 94, name: '利东', pinyin: 'lidong', py: 'ld', lat: '22.242092', lng: '114.156255' },
     { id: 95, name: '海怡半岛', pinyin: 'haiyibandao', py: 'hybd', lat: '22.242886', lng: '114.148787' },
-    { id: 96, name: '会展', pinyin: 'huizhan', py: 'hz', lat: '22.281972', lng: '114.175222' }
+    { id: 96, name: '会展', pinyin: 'huizhan', py: 'hz', lat: '22.282142', lng: '114.175501' }
   ]
 };
